@@ -36,7 +36,7 @@
 .header-title{
 	text-align: center;
 	font-weight : bold;
-    /*下面都是无法复制的实现！*/
+    /*下面都是无法复制的实现！ */
 	-webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
