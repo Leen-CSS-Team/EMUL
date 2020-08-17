@@ -1,0 +1,54 @@
+.header-white{
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #f8f8f8;/*背景颜色*/
+    color: #000000;/*字体颜色*/
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.header-blue{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #007AFF;
+    color: #000000;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+.header-title{
+	text-align: center;
+	font-weight : bold;
+    /*下面都是无法复制的实现*/
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.header-title-white{
+    color: #ffff;
+    text-align: center;
+    font-weight : bold;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
