@@ -1,8 +1,4 @@
-<center>
-
 # EMUL
-
-</center>
 
 ## 欢迎！
 
