@@ -36,3 +36,22 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 - 下载css文件使用
 
 这个方法虽然不是十分的快捷，但是速度上来说会更好一些，尤其是在无网络，或者使用h5+的时候，都得用到此方法，你可以git clone本项目，或者通过代码仓库提供的下载按钮下载.zip，然后将<kbd>文件夹css</kbd>中的一些<kbd>.css</kbd>文件引入至你的<kbd>.html</kbd>文件中，即可使用。
+
+## 文档
+
+### 文档请看<a href="https://github.com/leaf2006/EMUL/wiki">wiki</a>！
+
+## License
+
+### 本产品遵循MIT开源协议
+
+The MIT License(http://opensource.org/licenses/MIT)
+
+
+## 关于
+
+- Leafdeveloper（leaf2006）
+
+- by Leaf Studio open source community
+
+- Leaf Studio
