@@ -13,6 +13,11 @@
     padding-left: 15px;
     overflow: hidden;
     z-index: 0;
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 
 .header-blue{
@@ -22,7 +27,7 @@
     height: 50px;
     right: 0;
     background-color: #007AFF;
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     line-height: 50px;
     display: inline-block;
@@ -30,23 +35,29 @@
     padding-left: 15px;
     overflow: hidden;
     z-index: 0;
-
-}
-
-.header-title{
-	text-align: center;
-	font-weight : bold;
-    /*下面都是无法复制的实现!*/
-	-webkit-user-select:none;
+    text-align: center;
+    -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
 }
 
-.header-title-white{
-    color: #ffff;
+.header-dark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
     text-align: center;
-    font-weight : bold;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
