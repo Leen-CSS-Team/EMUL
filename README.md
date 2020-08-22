@@ -18,7 +18,7 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 
 ```html
 <!--主线-->
-<link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/css/emul.min.css">
+<link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/input/emul.min.css">
 ```
 
 ```html
