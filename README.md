@@ -45,6 +45,12 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 
 <a href="https://gitee.com/leaf2006/EMUL/wikis">gitee wiki（国内首选）</a>
 
+## 关于EMUL-snapshot
+
+EMUL-snapshot是EMUL的快照版，更新频繁，但是并无EMUL稳定，EMUL-snapshot内稳定的内容将转至EMUL
+
+有关EMUL-snapshot的详细介绍以及文档请<a href="emul-snapshot-doc.md">点击此处查看</a>
+
 ## License
 
 #### 本产品遵循MIT开源协议
