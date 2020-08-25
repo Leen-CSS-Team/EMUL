@@ -6,11 +6,11 @@
 
 - 内容丰富度不同
 
-EMUL的内容相对于EMUL-snapshot更少，EMUL-snapshot的内容更加丰富
+EMUL的内容相对于EMUL-sna-snapshot更少，EMUL-snapshot的内容更加丰富
 
 - 稳定性不同
 
-EMUL可以看做是一个稳定版本，它的所有内容都是经过测试，十分稳定的；而EMUL-snapshot可看做是一个预览版，他的内容是最新的、最多的，但是他的bug会偏多，且样式也可能相对于EMUL更加粗糙一些
+EMUL可以看做是一个稳定版本，它的所有内容都是经过测试，十分稳定的；而EMUL-snapshot可看做是一个快照版，他的内容是最新的、最多的，但是他的bug会偏多，且样式也可能相对于EMUL更加粗糙一些
 
 - 更新速度不同
 
