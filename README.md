@@ -65,3 +65,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 - by Leaf Studio open source community
 
 - Leaf Studio
+
+## Changelog
+
+- 2020·9·4 优化导航栏语法
