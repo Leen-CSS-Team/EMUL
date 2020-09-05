@@ -1,8 +1,8 @@
 # EMUL
 
-<div style="text-align: center;">
+<center>
 <img src="https://ct3fak.coding-pages.com/EMUL-docs-img/logo.png"/>
-</div>
+</center>
 
 ## 欢迎！
 
