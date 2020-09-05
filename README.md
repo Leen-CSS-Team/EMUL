@@ -1,9 +1,5 @@
 # EMUL
 
-<center>
-<img src="https://ct3fak.coding-pages.com/EMUL-docs-img/logo.png"/>
-</center>
-
 ## 欢迎！
 
 首先欢迎你看到这个框架！
