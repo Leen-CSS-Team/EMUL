@@ -27,7 +27,7 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 
 ```
 
-当然，这没有使用cdn加速，因为这只是通过普通的gitee pages所实现的，如果你身居国外，也许通过下面的github pages所实现的更快一些：
+当然，这没有使用cdn加速（我也没钱搞cdn），因为这只是通过普通的gitee pages所实现的，如果你身居国外，也许通过下面的github pages所实现的更快一些：
 
 ```html
 <link rel="stylesheet" type="text/css" href="https://leaf2006.github.io/EMUL/input/emul.min.css">
