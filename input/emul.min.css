@@ -1,3 +1,4 @@
+<!--emul_button-->
 /*实心按钮*/
 
 .button-green-small{
@@ -183,7 +184,7 @@
 /*空心按钮*/
 
 .button-green-small-hollow{
-    background-color: green; 
+    background-color: green;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -199,8 +200,8 @@
     border-radius: 8px;
     font-size: 10px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid #036d06;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -213,7 +214,7 @@
 }
 
 .button-red-small-hollow{
-    background-color: red; 
+    background-color: red;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -229,8 +230,8 @@
     border-radius: 8px;
     font-size: 10px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid rgb(236, 0, 0) ;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -244,7 +245,7 @@
 }
 
 .button-blue-small-hollow{
-    background-color: blue; 
+    background-color: blue;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -260,8 +261,8 @@
     border-radius: 8px;
     font-size: 10px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid  rgb(0, 0, 235) ;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -275,7 +276,7 @@
 }
 
 .button-yellow-small-hollow{
-     background-color: yellow; 
+     background-color: yellow;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -291,8 +292,8 @@
     border-radius: 8px;
     font-size: 10px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid #E8F600 ;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -306,7 +307,7 @@
 
 
 .button-green-large-hollow{
-    background-color: green; 
+    background-color: green;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -322,8 +323,8 @@
     border-radius: 8px;
     font-size: 20px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid #036d06;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -336,7 +337,7 @@
 }
 
 .button-red-large-hollow{
-    background-color: red; 
+    background-color: red;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -352,8 +353,8 @@
     border-radius: 8px;
     font-size: 20px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid rgb(236, 0, 0) ;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -367,7 +368,7 @@
 }
 
 .button-blue-large-hollow{
-    background-color: blue; 
+    background-color: blue;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -383,8 +384,8 @@
     border-radius: 8px;
     font-size: 20px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid  rgb(0, 0, 235) ;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -398,7 +399,7 @@
 }
 
 .button-yellow-large-hollow{
-    background-color: yellow; 
+    background-color: yellow;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -414,8 +415,8 @@
     border-radius: 8px;
     font-size: 20px;
 
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid #E8F600 ;
 
     -webkit-user-select:none;
@@ -427,6 +428,74 @@
     background-color: #E8F600;
     color: white;
 }
+
+<!--emul_miscellaneous-->
+.header-white{
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #f8f8f8;/*背景颜色*/
+    color: #000000;/*字体颜色*/
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.header-blue{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #007AFF;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+}
+
+.header-title{
+	text-align: center;
+	font-weight : bold;
+    /*下面都是无法复制的实现!*/
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.header-title-white{
+    color: #ffff;
+    text-align: center;
+    font-weight : bold;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+<!--emul_text-->
 .emul-h1{
 	font-size: 32px;
 	-webkit-user-select:none;
@@ -478,61 +547,6 @@
 .emul-p{
 	font-size: 16px;
 	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-
-.header-white{
-	position: fixed;
-    top: 0;
-    left: 0;
-    height: 50px;
-    right: 0;
-    background-color: #f8f8f8;/*背景颜色*/
-    color: #000000;/*字体颜色*/
-    font-size: 20px;
-    line-height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 15px;
-    overflow: hidden;
-    z-index: 0;
-}
-
-.header-blue{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 50px;
-    right: 0;
-    background-color: #007AFF;
-    color: #000000;
-    font-size: 20px;
-    line-height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 15px;
-    overflow: hidden;
-    z-index: 0;
-
-}
-
-.header-title{
-	text-align: center;
-	font-weight : bold;
-    /*下面都是无法复制的实现!*/
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-
-.header-title-white{
-    color: #ffff;
-    text-align: center;
-    font-weight : bold;
-    -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
