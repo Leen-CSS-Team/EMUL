@@ -63,3 +63,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 ## ChangeLog
 
 - 2020·9·4 优化导航栏语法
+
+- 2020·9·12 重新更新link网页引入，关闭备用线
