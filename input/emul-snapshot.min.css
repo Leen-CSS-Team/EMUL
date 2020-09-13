@@ -1,0 +1,557 @@
+
+<!--emul_snapshot_button-->
+/*EMUL_snapshot v 0.0.1*/
+
+/*实心按钮*/
+
+.button-green-small{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline:none;/*去除按钮周围的黑边框*/
+    border-radius: 8px;
+    font-size: 10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-green-small:hover{
+    background-color: #036d06;
+}
+.button-red-small{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline:none;
+    border-radius: 8px;
+    font-size: 10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-red-small:hover{
+    background-color: rgb(236, 0, 0);
+}
+.button-blue-small{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-blue-small:hover{
+    background-color: rgb(0, 0, 235);
+}
+.button-yellow-small{
+    background-color: yellow;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-yellow-small:hover{
+    background-color: #E8F600;
+}
+.button-green-large{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-green-large:hover{
+    background-color: #036d06;
+}
+
+.button-red-large{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline:none;
+    border-radius: 8px;
+    font-size: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-red-large:hover{
+    background-color: rgb(236, 0, 0);
+}
+
+.button-blue-large{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-blue-large:hover{
+    background-color: rgb(0, 0, 235);
+}
+
+.button-yellow-large{
+    background-color: yellow;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-yellow-large:hover{
+    background-color: #E8F600;
+}
+
+/*空心按钮*/
+
+.button-green-small-hollow{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 10px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #036d06;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-green-small-hollow:hover {
+    background-color:#036d06 ;
+    color: white;
+}
+
+.button-red-small-hollow{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 10px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(236, 0, 0) ;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.button-red-small-hollow:hover {
+    background-color: rgb(236, 0, 0);
+    color: white;
+}
+
+.button-blue-small-hollow{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 10px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid  rgb(0, 0, 235) ;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.button-blue-small-hollow:hover{
+    background-color:  rgb(0, 0, 235);
+    color: white;
+}
+
+.button-yellow-small-hollow{
+     background-color: yellow;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 10px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #E8F600 ;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-yellow-small-hollow:hover{
+    background-color: #E8F600;
+    color: white;
+}
+
+
+.button-green-large-hollow{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #036d06;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-green-large-hollow:hover {
+    background-color:#036d06 ;
+    color: white;
+}
+
+.button-red-large-hollow{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(236, 0, 0) ;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.button-red-large-hollow:hover {
+    background-color: rgb(236, 0, 0);
+    color: white;
+}
+
+.button-blue-large-hollow{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid  rgb(0, 0, 235) ;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.button-blue-large-hollow:hover{
+    background-color:  rgb(0, 0, 235);
+    color: white;
+}
+
+.button-yellow-large-hollow{
+    background-color: yellow;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #E8F600 ;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-yellow-large-hollow:hover{
+    background-color: #E8F600;
+    color: white;
+}
+
+<!--emul_snapshot_miscellaneous-->
+.header-white{
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #f8f8f8;/*背景颜色*/
+    color: #000000;/*字体颜色*/
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.header-blue{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #007AFF;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.header-dark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+<!--emul_snapshot_text-->
+.emul-h1{
+	font-size: 32px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.emul-h2{
+	font-size: 24px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.emul-h3{
+	font-size: 18.72px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.emul-h4{
+	font-size: 16px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.emul-h5{
+	font-size: 13.28px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.emul-h6{
+	font-size: 12px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.emul-p{
+	font-size: 16px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
