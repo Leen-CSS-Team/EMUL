@@ -21,7 +21,11 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
 使用EMUL-snapshot同样也可以使用link href网页引入：
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://txh0dp.coding-pages.com/input/emul-snapshot.min.css">
+<!--主线-->
+<link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/input/emul-snapshot.min.css">
+
+<!--github线路-->
+<link rel="stylesheet" type="text/css" href="https://leaf2006.github.io/EMUL/input/emul-snapshot.min.css">
 ```
 
 也可以可以git clone本项目，或者通过代码仓库提供的下载按钮下载.zip，然后将<kbd>文件夹css</kbd>中的一些<kbd>.css</kbd>文件引入至你的<kbd>.html</kbd>文件中，即可使用。
@@ -73,4 +77,3 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
     background-color: #181818;
 }
 ```
-
