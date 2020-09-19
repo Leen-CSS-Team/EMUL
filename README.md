@@ -67,3 +67,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·9·12 重新更新link网页引入，关闭备用线
 
 - 2020·9·13 将snapshot的link url引入添加到了此仓库
+
+- 2020·9·19 EMUL-snapshot版本更新全新夜间模式
