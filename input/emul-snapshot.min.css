@@ -1,6 +1,6 @@
 
-<!--emul_snapshot_button-->
-/*EMUL_snapshot v 0.0.1*/
+/*emul_snapshot_button*/
+
 
 /*实心按钮*/
 
@@ -432,7 +432,8 @@
     color: white;
 }
 
-<!--emul_snapshot_miscellaneous-->
+/*emul_snapshot_miscellaneous*/
+
 .header-white{
 	position: fixed;
     top: 0;
@@ -499,7 +500,7 @@
     user-select:none;
 }
 
-<!--emul_snapshot_text-->
+/*emul_snapshot_text*/
 .emul-h1{
 	font-size: 32px;
 	-webkit-user-select:none;
