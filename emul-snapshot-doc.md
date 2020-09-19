@@ -82,4 +82,4 @@ emul_snapshot_text_dark.css
 <link rel="stylesheet" type="text/css" href="https://leaf2006.github.io/EMUL/input/emul-snapshot-dark.min.css">
 ```
 
-为了确保原有功能的完整，全新的夜间模式与原来夜间模式的实现共存
+为了确保原有功能的完整，全新的夜间模式与原来的夜间模式实现共存
