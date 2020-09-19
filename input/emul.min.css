@@ -1,4 +1,4 @@
-<!--emul_button-->
+/*button*/
 /*实心按钮*/
 
 .button-green-small{
@@ -429,7 +429,7 @@
     color: white;
 }
 
-<!--emul_miscellaneous-->
+/*emul_miscellaneous*/
 .header-white{
 	position: fixed;
     top: 0;
@@ -495,7 +495,7 @@
     user-select:none;
 }
 
-<!--emul_text-->
+/*emul_text*/
 .emul-h1{
 	font-size: 32px;
 	-webkit-user-select:none;
