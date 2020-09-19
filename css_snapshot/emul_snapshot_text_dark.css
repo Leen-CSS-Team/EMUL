@@ -1,0 +1,62 @@
+.emul-h1{
+	font-size: 32px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    color: white;
+}
+
+.emul-h2{
+	font-size: 24px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    color: white;
+}
+
+.emul-h3{
+	font-size: 18.72px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    color: white;
+}
+
+.emul-h4{
+	font-size: 16px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    color: white;
+}
+
+.emul-h5{
+	font-size: 13.28px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    color: white;
+}
+
+.emul-h6{
+	font-size: 12px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    color: white;
+}
+
+.emul-p{
+	font-size: 16px;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    color: white;
+}
