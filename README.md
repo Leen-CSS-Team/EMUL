@@ -1,3 +1,7 @@
+### <a href="README_en.md">English</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="README.md">中文（简体）</a>
+
+<br /><br />
+
 # EMUL
 
 ## 欢迎！
@@ -79,3 +83,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·9·13 将snapshot的link url引入添加到了此仓库
 
 - 2020·9·19 EMUL-snapshot版本更新全新夜间模式
+
+- 2020·9·20 EMUL初步更新英文README
