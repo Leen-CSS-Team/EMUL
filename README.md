@@ -56,7 +56,15 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 ## 关于
 
-- Leafdeveloper（leaf2006）
+- Leafdeveloper（@前端的兔子）
+
+- An ran （@安然失笑か）
+
+特别感谢：可儿 对于Leafdeveloper的支持
+
+所属团队：
+
+- 开发：leen css Team
 
 - by Leaf Studio open source community
 
