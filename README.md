@@ -35,7 +35,7 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 
 #### 文档请看：
 
-<a href="https://leaf2006.gitee.io/emul-webside/doc/home.html">官方文档（目前还在测试版，建议使用电脑阅读）</a>
+<a href="https://leaf2006.gitee.io/emul-webside/doc/home.html">官方文档（目前还处于测试版，建议使用电脑阅读）</a>
 
 <a href="https://github.com/leaf2006/EMUL/wiki">github wiki（国内建议挂加速器）</a>
 
