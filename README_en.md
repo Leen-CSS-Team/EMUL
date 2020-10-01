@@ -14,7 +14,7 @@
 
 - If there are translation errors or improper grammar, please contact "leafdeveloper@qq.com"
 
-# EMUL 
+# EMUL
 
 First,welcome to see this project!
 
@@ -86,3 +86,5 @@ Team：
 - 2020·9·19 Emul-snapshot updated the new night mode
 
 - 2020·9·20 EMUL Preliminary Update English README
+
+- 2020·10·1 EMUL-snapshot button update

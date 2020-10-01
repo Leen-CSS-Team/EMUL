@@ -85,3 +85,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·9·19 EMUL-snapshot版本更新全新夜间模式
 
 - 2020·9·20 EMUL初步更新英文README
+
+- 2020·10·1 EMUL-snapshot的button更新（祖国母亲71岁生日快乐！）
