@@ -210,8 +210,9 @@
     cursor: pointer;
     outline: none;
     border-radius: 8px;
-    font-size: 10px;
-
+    height: 5px;
+    width: auto;
+    line-height: 5px;
     background-color: white;
     color: black;
     border: 2px solid #036d06;
@@ -240,11 +241,12 @@
     cursor: pointer;
     outline: none;
     border-radius: 8px;
-    font-size: 10px;
-
+    height: 5px;
+    width: auto;
+    line-height: 5px;
     background-color: white;
     color: black;
-    border: 2px solid rgb(236, 0, 0) ;
+    border: 2px solid #036d06;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -271,11 +273,12 @@
     cursor: pointer;
     outline: none;
     border-radius: 8px;
-    font-size: 10px;
-
+    height: 5px;
+    width: auto;
+    line-height: 5px;
     background-color: white;
     color: black;
-    border: 2px solid  rgb(0, 0, 235) ;
+    border: 2px solid #036d06;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -289,28 +292,29 @@
 
 .button-yellow-hollow{
      background-color: yellow;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid #E8F600 ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+     cursor: pointer;
+     outline: none;
+     border-radius: 8px;
+     height: 5px;
+     width: auto;
+     line-height: 5px;
+     background-color: white;
+     color: black;
+     border: 2px solid #036d06;
+     -webkit-user-select:none;
+     -moz-user-select:none;
+     -ms-user-select:none;
+     user-select:none;
 }
 .button-yellow-hollow:hover{
     background-color: #E8F600;
