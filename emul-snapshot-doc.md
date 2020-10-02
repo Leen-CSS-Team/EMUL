@@ -83,3 +83,28 @@ emul_snapshot_text_dark.css
 ```
 
 为了确保原有功能的完整，全新的夜间模式与原来的夜间模式实现共存
+
+- 全新button（button第一阶段更新）
+
+为了更好的适应移动端，目前EMUL-snapshot测试一种全新的button样式，目前业已完成第一阶段更新，主要更新了小型实心按钮的样式
+
+1.样式改变
+全新的样式如下：
+
+![](doc-image/1.jpeg)
+
+相比原来的样式，现在的小型按钮更小了，且更有移动端的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
+
+2.代码改变
+
+全新的小型实心按钮，去除了后面的"small"字段，所以新版代码如下：
+
+```html
+<button class="button-green">测试文字</button>
+
+<button class="button-red">测试文字</button>
+
+<button class="button-yellow">测试文字</button>
+
+<button class="button-blue">测试文字</button>
+```
