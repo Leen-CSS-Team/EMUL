@@ -90,3 +90,5 @@ Team：
 - 2020·10·1 EMUL-snapshot button first update
 
 - 2020·10·1 EMUL-snapshot’s hollow button update
+
+- 2020·10·2 EMUL-snapshot update document

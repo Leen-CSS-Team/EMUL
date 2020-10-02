@@ -89,3 +89,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·10·1 EMUL-snapshot的button第一次更新（祖国母亲71岁生日快乐！）
 
 - 2020·10·1 EMUL-snapshot的hollow button更新
+
+- 2020·10·2 EMUL-snapshot更新文档
