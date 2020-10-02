@@ -91,3 +91,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·10·1 EMUL-snapshot的hollow button更新
 
 - 2020·10·2 EMUL-snapshot更新文档
+
+- 2020·10·2 EMUL-snapshot的蓝色更新色号
