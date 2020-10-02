@@ -92,3 +92,5 @@ Team：
 - 2020·10·1 EMUL-snapshot’s hollow button update
 
 - 2020·10·2 EMUL-snapshot update document
+
+- 2020·10·2 Blue update color number of EMUL-snapshot
