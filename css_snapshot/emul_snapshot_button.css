@@ -52,7 +52,7 @@
     background-color: rgb(236, 0, 0);
 }
 .button-blue{
-    background-color: blue;
+    background-color: #27a4df;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -74,7 +74,7 @@
     user-select:none;
 }
 .button-blue:hover{
-    background-color: rgb(0, 0, 235);
+    background-color: #1772ff;
 }
 .button-yellow{
     background-color: yellow;
@@ -148,7 +148,7 @@
 }
 
 .button-blue-large{
-    background-color: blue;
+    background-color:  #27a4df;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -167,7 +167,7 @@
     user-select:none;
 }
 .button-blue-large:hover{
-    background-color: rgb(0, 4, 235);
+    background-color: #1772ff;
 }
 
 .button-yellow-large{
@@ -259,7 +259,7 @@
 }
 
 .button-blue-hollow{
-    background-color: blue;
+    background-color: #27a4df;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -278,7 +278,7 @@
     line-height: 5px;
     background-color: white;
     color: black;
-    border: 2px solid #036d06;
+    border: 2px solid #27a4df;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -286,7 +286,7 @@
 }
 
 .button-blue-hollow:hover{
-    background-color:  rgb(0, 0, 235);
+    background-color:  #1772ff;
     color: white;
 }
 
@@ -384,7 +384,7 @@
 }
 
 .button-blue-large-hollow{
-    background-color: blue;
+    background-color: #27a4df;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -402,7 +402,7 @@
 
     background-color: white;
     color: black;
-    border: 2px solid  rgb(0, 0, 235) ;
+    border: 2px solid  #27a4df ;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -410,7 +410,7 @@
 }
 
 .button-blue-large-hollow:hover{
-    background-color:  rgb(0, 0, 235);
+    background-color:  #1772ff;
     color: white;
 }
 
