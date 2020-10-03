@@ -1,6 +1,8 @@
 
 /*emul_snapshot_button*/
 
+/*EMUL_snapshot v 0.0.1*/
+
 /*实心按钮*/
 .button-green{
     background-color: green;
@@ -53,7 +55,7 @@
     background-color: rgb(236, 0, 0);
 }
 .button-blue{
-    background-color: blue;
+    background-color: #27a4df;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -75,7 +77,7 @@
     user-select:none;
 }
 .button-blue:hover{
-    background-color: rgb(0, 0, 235);
+    background-color: #1772ff;
 }
 .button-yellow{
     background-color: yellow;
@@ -149,7 +151,7 @@
 }
 
 .button-blue-large{
-    background-color: blue;
+    background-color:  #27a4df;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -168,7 +170,7 @@
     user-select:none;
 }
 .button-blue-large:hover{
-    background-color: rgb(0, 4, 235);
+    background-color: #1772ff;
 }
 
 .button-yellow-large{
@@ -211,8 +213,9 @@
     cursor: pointer;
     outline: none;
     border-radius: 8px;
-    font-size: 10px;
-
+    height: 5px;
+    width: auto;
+    line-height: 5px;
     background-color: white;
     color: black;
     border: 2px solid #036d06;
@@ -241,11 +244,12 @@
     cursor: pointer;
     outline: none;
     border-radius: 8px;
-    font-size: 10px;
-
+    height: 5px;
+    width: auto;
+    line-height: 5px;
     background-color: white;
     color: black;
-    border: 2px solid rgb(236, 0, 0) ;
+    border: 2px solid #036d06;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -258,7 +262,7 @@
 }
 
 .button-blue-hollow{
-    background-color: blue;
+    background-color: #27a4df;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -272,11 +276,12 @@
     cursor: pointer;
     outline: none;
     border-radius: 8px;
-    font-size: 10px;
-
+    height: 5px;
+    width: auto;
+    line-height: 5px;
     background-color: white;
     color: black;
-    border: 2px solid  rgb(0, 0, 235) ;
+    border: 2px solid #27a4df;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -284,34 +289,35 @@
 }
 
 .button-blue-hollow:hover{
-    background-color:  rgb(0, 0, 235);
+    background-color:  #1772ff;
     color: white;
 }
 
 .button-yellow-hollow{
      background-color: yellow;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid #E8F600 ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+     cursor: pointer;
+     outline: none;
+     border-radius: 8px;
+     height: 5px;
+     width: auto;
+     line-height: 5px;
+     background-color: white;
+     color: black;
+     border: 2px solid #036d06;
+     -webkit-user-select:none;
+     -moz-user-select:none;
+     -ms-user-select:none;
+     user-select:none;
 }
 .button-yellow-hollow:hover{
     background-color: #E8F600;
@@ -381,7 +387,7 @@
 }
 
 .button-blue-large-hollow{
-    background-color: blue;
+    background-color: #27a4df;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -399,7 +405,7 @@
 
     background-color: white;
     color: black;
-    border: 2px solid  rgb(0, 0, 235) ;
+    border: 2px solid  #27a4df ;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -407,7 +413,7 @@
 }
 
 .button-blue-large-hollow:hover{
-    background-color:  rgb(0, 0, 235);
+    background-color:  #1772ff;
     color: white;
 }
 
@@ -441,6 +447,7 @@
     background-color: #E8F600;
     color: white;
 }
+
 
 
 /*emul_snapshot_miscellaneous*/
