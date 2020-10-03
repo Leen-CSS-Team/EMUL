@@ -67,6 +67,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 Special thanks to: 可儿 for supporting Leafdeveloper
 
+Color card, color selection to provide and help:秋白
+
 Team：
 
 - The development of：leen css Team
@@ -96,3 +98,5 @@ Team：
 - 2020·10·2 Blue update color number of EMUL-snapshot
 
 - 2020·10·3 EMUL-snapshot-dark and button update for the first time
+
+- 2020·10·3 2020·10·3 EMUL-snapshot document update, updated details about the button blue color update

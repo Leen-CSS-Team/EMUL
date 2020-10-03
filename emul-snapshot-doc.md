@@ -91,7 +91,7 @@ emul_snapshot_text_dark.css
 1.样式改变
 全新的样式如下：
 
-![](doc-image/1.jpeg)
+![](doc-image/1.png)
 
 相比原来的样式，现在的小型按钮更小了，且更有移动端的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
 
@@ -108,3 +108,16 @@ emul_snapshot_text_dark.css
 
 <button class="button-blue">测试文字</button>
 ```
+
+- 蓝色button色系的改变
+
+目前EMUL-snapshot的蓝色小型实心的按钮色系发生改变，颜色由原来的 #0000ff 改为了 #27a4df ，渐变色从原来的 rgb(0, 0, 235) 改为了 #1772ff。新版button如下：
+
+![](doc-image/2.png)
+
+旧版本的蓝色button如下：
+
+![](doc-image/3.png)
+
+可以看出，新版的button色系比原来的button色系更加柔和且美观，在这里还要<b>特别感谢我都朋友秋白，是她提供了我许多的色卡，为按钮的配色提供了帮助</b>
+

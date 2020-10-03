@@ -66,6 +66,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 特别感谢：可儿 对于Leafdeveloper的支持
 
+色卡，颜色选择提供与帮助：秋白
+
 所属团队：
 
 - 开发：leen css Team
@@ -95,3 +97,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·10·2 EMUL-snapshot的蓝色更新色号
 
 - 2020·10·3 EMUL-snapshot-dark跟button第一次更新
+
+- 2020·10·3 EMUL-snapshot文档更新，更新了有关button蓝色色系更新的详细内容
