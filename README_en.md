@@ -94,3 +94,5 @@ Team：
 - 2020·10·2 EMUL-snapshot update document
 
 - 2020·10·2 Blue update color number of EMUL-snapshot
+
+- 2020·10·3 EMUL-snapshot-dark and button update for the first time
