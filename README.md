@@ -100,4 +100,4 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - 2020·10·3 EMUL-snapshot文档更新，更新了有关button蓝色色系更新的详细内容
 
--2020·12·4 EMUL-snapshot中button第一阶段更新提交至正式版
+- 2020·12·4 EMUL-snapshot中button第一阶段更新提交至正式版
