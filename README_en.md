@@ -100,3 +100,7 @@ Team：
 - 2020·10·3 EMUL-snapshot-dark and button update for the first time
 
 - 2020·10·3 2020·10·3 EMUL-snapshot document update, updated details about the button blue color update
+
+- 2020·10·4 The first stage of the button update in EMUL-snapshot is submitted to the official version
+
+- 2020·10·4 Update README

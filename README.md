@@ -66,7 +66,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 特别感谢：可儿 对于Leafdeveloper的支持
 
-色卡，颜色选择提供与帮助：秋白
+色卡，颜色选择提供与帮助：秋白（注：秋白给我的色卡已经放在GitHub/Gitee上，如有需要可以去get～ <a href="https://github.com/leaf2006/qiu-bai-s-Color-Card">GitHub</a>&nbsp;&nbsp;<a href="https://gitee.com/leaf2006/qiu-bai-s-Color-Card">Gitee</a>
 
 所属团队：
 
@@ -99,3 +99,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·10·3 EMUL-snapshot-dark跟button第一次更新
 
 - 2020·10·3 EMUL-snapshot文档更新，更新了有关button蓝色色系更新的详细内容
+
+- 2020·10·4 EMUL-snapshot中button第一阶段更新提交至正式版
+
+- 2020·10·4 更新README，添加有关于秋白色卡的内容
