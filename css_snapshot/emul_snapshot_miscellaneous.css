@@ -90,15 +90,15 @@
 }
 
 .switch-blue-control input:checked ~ .switch-control::after{
-  left: 55px;
+  left: 46px;
 }
 
 .switch-blue-control .switch-control{
   position: absolute;
   top: 0;
   left: 0;
-  height: 50px;
-  width: 100px;
+  height: 30px;
+  width: 70px;
   border-radius: 25px;
   background-color: darkgray;
   transition: background-color 0.15s ease-in;
@@ -109,8 +109,8 @@
   position: absolute;
   left: 5px;
   top: 5px;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 25px;
   background:#fff;
   transition: left 0.15s ease-in;
