@@ -104,3 +104,5 @@ Team：
 - 2020·10·4 The first stage of the button update in EMUL-snapshot is submitted to the official version
 
 - 2020·10·4 Update README
+
+- 2020·10·6 2020·10·6 EMUL-snapshot1 update switch
