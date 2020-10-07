@@ -75,8 +75,7 @@ emul_snapshot_text_dark.css
 更加便携的引入方式我们也准备好了，通过以下代码即可引入：
 
 ```html
-<!--主
-线-->
+<!--主线-->
 <link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/input/emul-snapshot-dark.min.css">
 
 <!--github线路-->
