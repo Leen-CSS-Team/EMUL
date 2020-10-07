@@ -1,4 +1,4 @@
-
+## 在github上，有些图片可能因为网速原因加载不出来，影响文档体验，你可以选择<a href="https://gitee.com/leaf2006/EMUL/blob/master/emul-snapshot-doc.md" target="_blank">在gitee查看</a>
 
 # EMUL-snapshot-doc
 
@@ -135,3 +135,39 @@ emul_snapshot_text_dark.css
        <span class="switch-control"></span>
 </label>
 ```
+
+- 翻转卡片的更新
+
+在全新版本，我们更新了翻转卡片，效果如下（日常拿安然试验）：
+
+![](doc-image/gif1.gif)
+
+代码实现如下：
+
+```html
+<div class="content">
+  <div class="card">
+    <div class="card-side card-side-front">
+      <!-- Front Content -->
+      <div class="card-cont">
+        <span class="blue">名片封面</span><span>(<span class="green">'写啥都行'</span>)</span>
+      </div>
+    </div>
+    <div class="card-side card-side-back">
+      <!-- Back Content -->
+      <div class="card-cta">
+
+          <br />
+          <span class="space red">名字</span><span class="cyan">:</span> <span class="green">'安然'</span>,
+          <br/>
+          <span class="space red">邮箱</span><span class="cyan">:</span> <span class="green">不方便透露</span>',
+          <br/>
+          <span class="space red">工作室</span><span class="cyan">:</span> <span class="green">'**工作室'</span>,
+          <br/>
+          <span class="space red">网站</span><span class="cyan">:</span> <span class="green">'暂时没有（不存在的）'</span>
+         
+        </p>
+      </div>
+    </div>
+  </div>
+  ```
