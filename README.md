@@ -105,3 +105,5 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·10·4 更新README，添加有关于秋白色卡的内容
 
 - 2020·10·6 EMUL-snapshot1更新switch
+
+- 2020·10·7 EMUL-snapshot更新card翻转卡片 

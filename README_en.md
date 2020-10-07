@@ -106,3 +106,5 @@ Team：
 - 2020·10·4 Update README
 
 - 2020·10·6 2020·10·6 EMUL-snapshot1 update switch
+
+- 2020·10·7 EMUL-snapshot update card flip card
