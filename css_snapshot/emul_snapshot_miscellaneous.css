@@ -120,7 +120,7 @@
 
 /*翻转名片*/
 
-<!--
+/*
 翻转型卡片
     调用字体:
       font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
@@ -128,7 +128,8 @@
       background-image: linear-gradient(to bottom right, #ff9800, #ffa726);
     代码块颜色:
      蓝色:#29b6f6，绿色:#9ccc65,紫色:#ba68c8，青色:#4dd0e1，红色:#ef5350
--->
+*/
+
 
 /*调用方式：
 <div class="content">
