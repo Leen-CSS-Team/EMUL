@@ -496,6 +496,112 @@
     user-select:none;
 }
 
+.switch-blue{
+    display: block;
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .switch-blue input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .switch-blue-control input:checked ~ .switch-control{
+    background-color: dodgerblue;
+  }
+  
+  .switch-blue-control input:checked ~ .switch-control::after{
+    left: 46px;
+  }
+  
+  .switch-blue-control .switch-control{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 70px;
+    border-radius: 25px;
+    background-color: darkgray;
+    transition: background-color 0.15s ease-in;
+  }
+  
+  .switch-blue-control .switch-control::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background:#fff;
+    transition: left 0.15s ease-in;
+  }
+
+
+
+  .switch-green{
+    display: block;
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .switch-green input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .switch-green-control input:checked ~ .switch-control{
+    background-color:#76d572;
+  }
+  
+  .switch-green-control input:checked ~ .switch-control::after{
+    left: 46px;
+  }
+  
+  .switch-green-control .switch-control{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 70px;
+    border-radius: 25px;
+    background-color: darkgray;
+    transition: background-color 0.15s ease-in;
+  }
+  
+  .switch-green-control .switch-control::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background:#fff;
+    transition: left 0.15s ease-in;
+  }
+
 /*emul_text*/
 .emul-h1{
 	font-size: 32px;
