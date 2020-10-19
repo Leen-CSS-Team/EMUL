@@ -121,20 +121,6 @@ emul_snapshot_text_dark.css
 
 可以看出，新版的button色系比原来的button色系更加柔和且美观，在这里还要<b>特别感谢我都朋友秋白，是她提供了我许多的色卡，为按钮的配色提供了帮助</b>
 
-- switch开关的更新
-
-目前我们已经更新了全新的switch开关，如图：
-
-![](doc-image/4.png)
-
-目前在snapshot仅有这一种颜色，全新的绿色已经在正式版中直接更新。此版本的蓝色实现代码如下：
-
-```html
-<label class="switch-blue-control">
-       <input type="checkbox" checked="checked">
-       <span class="switch-control"></span>
-</label>
-```
 
 - 翻转卡片的更新
 
@@ -171,3 +157,5 @@ emul_snapshot_text_dark.css
     </div>
   </div>
   ```
+  
+ <!--明天更新全新switch开关用法！-->
