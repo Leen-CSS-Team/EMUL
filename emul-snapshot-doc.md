@@ -127,7 +127,7 @@ emul_snapshot_text_dark.css
 
 ![](doc-image/4.png)
 
-目前仅有这一种颜色，实现代码如下：
+目前在snapshot仅有这一种颜色，全新的绿色已经在正式版中直接更新。此版本的蓝色实现代码如下：
 
 ```html
 <label class="switch-blue-control">
