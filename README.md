@@ -107,3 +107,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·10·6 EMUL-snapshot1更新switch
 
 - 2020·10·7 EMUL-snapshot更新card翻转卡片 
+
+## 提醒事项
+
+- 2020·10·19 已知bug：switch开关在某些情况下会有错版状态，目前正式版已更新开关，为了防止bug影响大已经取消switch开关在正式版的文档。

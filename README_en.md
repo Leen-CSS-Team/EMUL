@@ -108,3 +108,7 @@ Team：
 - 2020·10·6 2020·10·6 EMUL-snapshot1 update switch
 
 - 2020·10·7 EMUL-snapshot update card flip card
+
+## Reminder
+
+- 2020·10·19 Known bug: The switch switch will have the wrong version status in some cases. The switch has been updated in the official version. In order to prevent the impact of the bug, the switch switch document in the official version has been cancelled.
