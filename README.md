@@ -110,6 +110,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - 2020·10·20 EMUL-snapshot更新全新switch开关（switch开关第二阶段更新），并将尽快上正式版
 
+- 2020·10·20 正式更新全新switch开关
+
 ## 提醒事项
 
 - 2020·10·19 已知bug：switch开关在某些情况下会有错版状态，目前正式版已更新开关，为了防止bug影响大已经取消switch开关在正式版的文档。
