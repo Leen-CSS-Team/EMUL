@@ -106,7 +106,9 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - 2020·10·6 EMUL-snapshot1更新switch
 
-- 2020·10·7 EMUL-snapshot更新card翻转卡片 
+- 2020·10·7 EMUL-snapshot更新card翻转卡片
+
+- 2020·10·20 EMUL-snapshot更新全新switch开关（switch开关第二阶段更新），并将尽快上正式版
 
 ## 提醒事项
 
