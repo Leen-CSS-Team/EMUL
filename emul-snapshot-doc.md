@@ -158,4 +158,6 @@ emul_snapshot_text_dark.css
   </div>
   ```
   
- <!--明天更新全新switch开关用法！-->
+ - 新版本的switch开关（switch第二阶段更新）
+
+ 由于第一代switch开关出现了部分问题，现在更新出第二代switch并将尽快入正式版
