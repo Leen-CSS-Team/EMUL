@@ -109,6 +109,10 @@ Team：
 
 - 2020·10·7 EMUL-snapshot update card flip card
 
+- 2020·10·20 EMUL-snapshot is updated with a new switch switch (the second phase of switch switch update), and the official version will be released as soon as possible
+
+- 2020·10·20 officially updated the new switch switch
+
 ## Reminder
 
 - (already fixed)~~2020·10·19 Known bug: The switch switch will have the wrong version status in some cases. The switch has been updated in the official version. In order to prevent the impact of the bug, the switch switch document in the official version has been cancelled.~~

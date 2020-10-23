@@ -91,7 +91,7 @@ emul_snapshot_text_dark.css
 1.样式改变
 全新的样式如下：
 
-![](doc-image/1.png)
+![](https://ct3fak.coding-pages.com/EMUL-docs-img/11.png)
 
 相比原来的样式，现在的小型按钮更小了，且更有移动端的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
 
@@ -113,34 +113,20 @@ emul_snapshot_text_dark.css
 
 目前EMUL-snapshot的蓝色小型实心的按钮色系发生改变，颜色由原来的 #0000ff 改为了 #27a4df ，渐变色从原来的 rgb(0, 0, 235) 改为了 #1772ff。新版button如下：
 
-![](doc-image/2.png)
+![](https://ct3fak.coding-pages.com/EMUL-docs-img/12.png)
 
 旧版本的蓝色button如下：
 
-![](doc-image/3.png)
+![](https://ct3fak.coding-pages.com/EMUL-docs-img/13.png)
 
 可以看出，新版的button色系比原来的button色系更加柔和且美观，在这里还要<b>特别感谢我都朋友秋白，是她提供了我许多的色卡，为按钮的配色提供了帮助</b>
 
-- switch开关的更新
-
-目前我们已经更新了全新的switch开关，如图：
-
-![](doc-image/4.png)
-
-目前在snapshot仅有这一种颜色，全新的绿色已经在正式版中直接更新。此版本的蓝色实现代码如下：
-
-```html
-<label class="switch-blue-control">
-       <input type="checkbox" checked="checked">
-       <span class="switch-control"></span>
-</label>
-```
 
 - 翻转卡片的更新
 
 在全新版本，我们更新了翻转卡片，效果如下（日常拿安然试验）：
 
-![](doc-image/gif1.gif)
+![](https://ct3fak.coding-pages.com/EMUL-docs-img/14.gif)
 
 代码实现如下：
 
@@ -171,3 +157,27 @@ emul_snapshot_text_dark.css
     </div>
   </div>
   ```
+  
+ - 新版本的switch开关（switch第二阶段更新）
+
+ 由于第一代switch开关出现了部分问题，现在更新出第二代switch并将尽快入正式版
+
+绿色样式：
+
+![](https://ct3fak.coding-pages.com/EMUL-docs-img/9.gif)
+
+全新样式的switch开关不仅仅更加有移动端的风格，且在触发后的动画效果也更为优美。
+
+实现代码如下：
+
+```html
+<input class="switch-green switch-anim-green" type="checkbox" checked>
+```
+
+蓝色样式：
+
+![](https://ct3fak.coding-pages.com/EMUL-docs-img/10.gif)
+
+```html
+<input class="switch-blue switch-anim-blue" type="checkbox" checked>
+```
