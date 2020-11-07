@@ -113,6 +113,8 @@ Team：
 
 - 2020·10·20 officially updated the new switch switch
 
+- 2020·11·7 update alert card
+
 ## Reminder
 
 - (already fixed)~~2020·10·19 Known bug: The switch switch will have the wrong version status in some cases. The switch has been updated in the official version. In order to prevent the impact of the bug, the switch switch document in the official version has been cancelled.~~
