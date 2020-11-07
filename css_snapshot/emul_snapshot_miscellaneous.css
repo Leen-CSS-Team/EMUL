@@ -454,3 +454,15 @@ function checkNum(){
 .card-cta p > .space {
   margin-left: 2rem;
 }
+
+
+.alert-blue{
+  border-radius: 5px;
+  height: 45px;
+  width: auto;
+  background-color:#d1e4fc;
+  font-size: 14px;
+  line-height: 45px;
+  text-indent: 20px;
+  color: #164180;
+}
