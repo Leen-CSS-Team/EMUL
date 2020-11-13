@@ -182,4 +182,4 @@ emul_snapshot_text_dark.css
 <input class="switch-blue switch-anim-blue" type="checkbox" checked>
 ```
 
-- Alert Card第一阶段更新
+- Alert Card
