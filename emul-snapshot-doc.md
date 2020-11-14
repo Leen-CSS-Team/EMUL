@@ -18,7 +18,7 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
 
 ## Getting Started
 
-使用EMUL-snapshot同样也可以使用link href网页引入：
+使用EMUL-snapshot同样也可以使用link href引入：
 
 ```html
 <!--主线-->
