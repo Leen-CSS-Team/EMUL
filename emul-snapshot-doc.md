@@ -181,5 +181,3 @@ emul_snapshot_text_dark.css
 ```html
 <input class="switch-blue switch-anim-blue" type="checkbox" checked>
 ```
-
-- Alert Card
