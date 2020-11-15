@@ -181,3 +181,17 @@ emul_snapshot_text_dark.css
 ```html
 <input class="switch-blue switch-anim-blue" type="checkbox" checked>
 ```
+
+- Alert Card（第一阶段更新）
+
+目前我们更新了全新的alert card（学习bootcss，哈哈哈）
+
+![](https://ct3fak.coding-pages.com/EMUL-docs-img/14.png)
+
+实现代码：
+
+```html
+<div class="alert-blue">
+		注意！网络未连接！
+</div>
+```
