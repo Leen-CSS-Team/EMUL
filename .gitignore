@@ -6,3 +6,10 @@
 /text4.html
 .DS_Store
 .vscode/settings.json
+.vs/EMUL/v16/.suo
+.vs/VSWorkspaceState.json
+.vs/ProjectSettings.json
+.gitignore
+.vs/slnx.sqlite
+/.vs
+/.vscode
