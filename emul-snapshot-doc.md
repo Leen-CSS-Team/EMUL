@@ -34,7 +34,7 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
 
 - 增加了dark模式的导航栏
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/%E6%8D%95%E8%8E%B7.PNG)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/%E6%8D%95%E8%8E%B7.PNG)
 
 全新的dark导航栏
 
@@ -91,7 +91,7 @@ emul_snapshot_text_dark.css
 1.样式改变
 全新的样式如下：
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/11.png)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/11.png)
 
 相比原来的样式，现在的小型按钮更小了，且更有移动端的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
 
@@ -113,11 +113,11 @@ emul_snapshot_text_dark.css
 
 目前EMUL-snapshot的蓝色小型实心的按钮色系发生改变，颜色由原来的 #0000ff 改为了 #27a4df ，渐变色从原来的 rgb(0, 0, 235) 改为了 #1772ff。新版button如下：
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/12.png)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/12.png)
 
 旧版本的蓝色button如下：
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/13.png)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/13.png)
 
 可以看出，新版的button色系比原来的button色系更加柔和且美观，在这里还要<b>特别感谢我都朋友秋白，是她提供了我许多的色卡，为按钮的配色提供了帮助</b>
 
@@ -126,7 +126,7 @@ emul_snapshot_text_dark.css
 
 在全新版本，我们更新了翻转卡片，效果如下（日常拿安然试验）：
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/14.gif)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/14.gif)
 
 代码实现如下：
 
@@ -164,7 +164,7 @@ emul_snapshot_text_dark.css
 
 绿色样式：
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/9.gif)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/9.gif)
 
 全新样式的switch开关不仅仅更加有移动端的风格，且在触发后的动画效果也更为优美。
 
@@ -176,7 +176,7 @@ emul_snapshot_text_dark.css
 
 蓝色样式：
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/10.gif)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/10.gif)
 
 ```html
 <input class="switch-blue switch-anim-blue" type="checkbox" checked>
@@ -186,7 +186,7 @@ emul_snapshot_text_dark.css
 
 目前我们更新了全新的alert card（学习bootcss，哈哈哈）
 
-![](https://ct3fak.coding-pages.com/EMUL-docs-img/14.png)
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/14.png)
 
 实现代码：
 
