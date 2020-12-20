@@ -116,6 +116,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - 2020·11·20 更新红色alert card
 
+- 2020·12·20 将snapshot版本中的card加入正式版中
+
 ## 提醒事项
 
 - （已修复）~~2020·10·19 已知bug：switch开关在某些情况下会有错版状态，目前正式版已更新开关，为了防止bug影响大已经取消switch开关在正式版的文档。~~

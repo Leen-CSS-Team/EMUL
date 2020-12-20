@@ -115,7 +115,9 @@ Team：
 
 - 2020·11·7 update alert card
 
--2020·11·20 update red alert card
+- 2020·11·20 update red alert card
+
+- 2020·12·20 Add the card in the snapshot version to the official version
 
 ## Reminder
 
