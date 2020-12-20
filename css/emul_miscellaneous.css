@@ -289,3 +289,115 @@
   text-indent: 20px;
   color: #a18433;
 }
+
+/*卡片*/
+.blue {
+  color: #29b6f6;
+}
+
+.green {
+  color: #9ccc65;
+}
+
+.purple {
+  color: #ba68c8;
+}
+
+.cyan {
+  color: #4dd0e1;
+}
+
+.red {
+  color: #ef5350;
+}
+
+.content {
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  height: 20rem;
+  width: 30rem;
+  position: relative;
+}
+.card-side {
+  height: 15rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 30rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+.card-side-front {
+  background-color: #1c1c1c;
+}
+.card-side-back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-color: #1c1c1c;
+}
+.card:hover .card-side-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+.card:hover .card-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+.card-cont {
+  height: 15rem;
+  background-color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 90%;
+  color: white;
+}
+.card-cta p {
+  margin-left: 1rem;
+}
+.card-cta p > .space {
+  margin-left: 2rem;
+}
+
+
+.alert-blue{
+  border-radius: 5px;
+  height: 45px;
+  width: auto;
+  background-color:#d1e4fc;
+  font-size: 14px;
+  line-height: 45px;
+  text-indent: 20px;
+  color: #a18433;
+}
+
+.alert-red{
+  border-radius: 5px;
+  height: 45px;
+  width: auto;
+  background-color: #fff3cd;
+  font-size: 14px;
+  line-height: 45px;
+  text-indent: 20px;
+  color: #a18433;
+}
