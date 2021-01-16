@@ -1,481 +1,189 @@
-.header-white{
-	position: fixed;
-    top: 0;
-    left: 0;
-    height: 50px;
-    right: 0;
-    background-color: #f8f8f8;/*背景颜色*/
-    color: #000000;/*字体颜色*/
-    font-size: 20px;
-    line-height: 50px;
+/*checkbox1 begin*/
+
+input.checkbox1 {
+    width: 57px;
+    height: 28px;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    border-radius: 20px;
+    background-clip: content-box;
     display: inline-block;
-    vertical-align: middle;
-    padding-left: 15px;
-    overflow: hidden;
-    z-index: 0;
-    text-align: center;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+    transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
 }
 
-.header-blue{
-    position: fixed;
+.checkbox1:before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    position: absolute;
     top: 0;
     left: 0;
-    height: 50px;
-    right: 0;
-    background-color: #007AFF;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 15px;
-    overflow: hidden;
-    z-index: 0;
-    text-align: center;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-
-.header-dark{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 50px;
-    right: 0;
-    background-color: #111111;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 15px;
-    overflow: hidden;
-    z-index: 0;
-    text-align: center;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-
-/*全新switch开关
-
-语法：
-蓝色：<input class="switch-blue switch-anim-blue" type="checkbox" checked>
-绿色：<input class="switch-green switch-anim-green" type="checkbox" checked>
-
--webkit-appearance : none 是用来移除原生控件样式
-transition是css3的过渡效果
-cubic-bezier 这个是贝塞尔曲线有个可视化的网站（http://cubic-bezier.com）
-
-这个若要控制switch开关需要试用JavaScript，代码如下：
-
-蓝色：
-function checkNum(){
-        if($('.switch-anim-blue').prop('checked')){
-            console.log("选中");
-        }else{
-            console.log("没选中");
-        }
-    }
-	
-	
-绿色：
-
-function checkNum(){
-        if($('.switch-anim-green').prop('checked')){
-            console.log("选中");
-        }else{
-            console.log("没选中");
-        }
-    }
-	
-	在文档中已经写好！
-*/
-
-.switch-green {
-		            width: 57px;
-		            height: 28px;
-		            position: relative;
-		            border: 1px solid #dfdfdf;
-		            background-color: #fdfdfd;
-		            box-shadow: #dfdfdf 0 0 0 0 inset;
-		            border-radius: 20px;
-		            background-clip: content-box;
-		            display: inline-block;
-		            -webkit-appearance: none;
-		            user-select: none;
-		            outline: none;
-		        }
-		        .switch-green:before {
-		            content: '';
-		            width: 26px;
-		            height: 26px;
-		            position: absolute;
-		            top: 0;
-		            left: 0;
-		            border-radius: 20px;
-		            background-color: #fff;
-		            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-		        }
-		        .switch-green:checked {
-		            border-color: #64bd63;
-		            box-shadow: #64bd63 0 0 0 16px inset;
-		            background-color: #64bd63;
-		        }
-		        .switch-green:checked:before {
-		            left: 30px;
-		        }
-		        .switch-green.switch-anim-green {
-		            transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
-		        }
-		        .switch-green.switch-anim-green:before {
-		            transition: left 0.3s;
-		        }
-		        .switch-green.switch-anim-green:checked {
-		            box-shadow: #64bd63 0 0 0 16px inset;
-		            background-color: #64bd63;
-		            transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
-		        }
-		        .switch-green.switch-anim-green:checked:before {
-		            transition: left 0.3s;
-		        }
-				
-				.switch-blue {
-				            width: 57px;
-				            height: 28px;
-				            position: relative;
-				            border: 1px solid #dfdfdf;
-				            background-color: #fdfdfd;
-				            box-shadow: #dfdfdf 0 0 0 0 inset;
-				            border-radius: 20px;
-				            background-clip: content-box;
-				            display: inline-block;
-				            -webkit-appearance: none;
-				            user-select: none;
-				            outline: none;
-				        }
-				        .switch-blue:before {
-				            content: '';
-				            width: 26px;
-				            height: 26px;
-				            position: absolute;
-				            top: 0;
-				            left: 0;
-				            border-radius: 20px;
-				            background-color: #fff;
-				            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-				        }
-				        .switch-blue:checked {
-				            border-color: #4191f7;
-				            box-shadow: #4191f7 0 0 0 16px inset;
-				            background-color: #4191f7;
-				        }
-				        .switch-blue:checked:before {
-				            left: 30px;
-				        }
-				        .switch-blue.switch-anim-blue {
-				            transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
-				        }
-				        .switch-blue.switch-anim-blue:before {
-				            transition: left 0.3s;
-				        }
-				        .switch-blue.switch-anim-blue:checked {
-				            box-shadow: #4191f7 0 0 0 16px inset;
-				            background-color: #4191f7;
-				            transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
-				        }
-				        .switch-green.switch-anim-blue:checked:before {
-				            transition: left 0.3s;
-				        }
-
-
-/*
-.form-switch{
-       display: inline-block;
-   }
-     .form-switch input[type="checkbox"]{ display: none; }
-             
-             
-             .form-switch >div{
-                 position: relative;
-                display: inline-block;
-                padding: 0 5px;
-                width: auto!important;
-                min-width: 35px;
-                height: 22px;
-                line-height: 22px;
-                background-color: #fff;
-                box-shadow: #ccc 0px 0px 0px 2px;
-                border-radius: 20px;
-                overflow: hidden;
-             }
-             
-             .form-switch div>span{
-                 color: #999;
-             }
-  
-    .form-switch i{
-        position: absolute; 
-        left: 5px;
-        top: 3px;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background-color: #d2d2d2;
-        -webkit-transition: .1s linear;
-         transition: .1s linear;
-    }
-    
-    .form-switch div >em{
-        position: relative;
-        top: 0;
-        width: 25px;
-        margin-left: 21px;
-        padding: 0!important;
-        text-align: center!important;
-        color: #999!important;
-        font-style: normal!important;
-        font-size: 12px;
-    }
-     .form-switch div >em:last-child{
-         display: block;
-     }
-     .form-switch input[type="checkbox"]:checked + div {
-     border-color: #3679b7;
-    background-color: #3679b7;
-    color: #fff;
- }
- .form-switch input[type="checkbox"]:checked + div i{
-    left: 100%;
-    margin-left: -21px;
+    border-radius: 20px;
     background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    transition: left 0.3s;
 }
- .form-switch input[type="checkbox"]:checked + div em:last-child{
-    display: block;
-    color: #fff;
-    margin-left: 5px;
-    margin-right: 21px;
-    color: #fff!important;
+
+.checkbox1:checked {
+    transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
 }
-.form-switch input[type="checkbox"]:checked + div em:nth-child(2){
+
+.checkbox1:checked:before {
+    left: 30px;
+}
+
+.checkbox1.blue:checked {
+    border-color: #4191f7;
+    box-shadow: #4191f7 0 0 0 16px inset;
+    background-color: #4191f7;
+}
+
+.checkbox1.green:checked {
+    border-color: #64bd63;
+    box-shadow: #64bd63 0 0 0 16px inset;
+    background-color: #64bd63;
+}
+
+/*checkbox1 over*/
+
+/*checkbox2 begin*/
+
+.checkbox2switch {
+    cursor: pointer;
+    position: absolute;
+}
+
+.checkbox2switch input {
     display: none;
-    color: #fff;
-}
-*/
-
-/*
-.switch-blue{
-  display: block;
-  position: relative;
-  padding-left: 100px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
-.switch-blue input{
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+.checkbox2switch::before {
+    border: solid 1px #dfdfdf;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 32px;
+    background-color: white;
+    border-radius: 16px;
 }
 
-.switch-blue-control input:checked ~ .switch-control{
-  background-color: dodgerblue;
+input+.checkbox2line::before, input+.checkbox2line::after {
+    position: absolute;
+    top: 14px;
+    content: "";
+    width: 24px;
+    height: 4px;
+    background-color: #d3d4ec;
+    transition: 0.3s;
 }
 
-.switch-blue-control input:checked ~ .switch-control::after{
-  left: 46px;
+input+.checkbox2line::before {
+    transform: scaleX(0);
+    left: 4px;
+    transform-origin: left;
 }
 
-.switch-blue-control .switch-control{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 30px;
-  width: 70px;
-  border-radius: 25px;
-  background-color: darkgray;
-  transition: background-color 0.15s ease-in;
+input+.checkbox2line::after {
+    left: 32px;
+    transform: scaleX(1);
+    transform-origin: right;
 }
 
-.switch-blue-control .switch-control::after{
-  content: "";
-  position: absolute;
-  left: 5px;
-  top: 5px;
-  width: 20px;
-  height: 20px;
-  border-radius: 25px;
-  background:#fff;
-  transition: left 0.15s ease-in;
+input:checked+.checkbox2line::before {
+    transform: scaleX(1);
 }
 
-*/
-
-
-
-/*翻转名片*/
-
-/*
-翻转型卡片
-    调用字体:
-      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-    背景渐变色:
-      background-image: linear-gradient(to bottom right, #ff9800, #ffa726);
-    代码块颜色:
-     蓝色:#29b6f6，绿色:#9ccc65,紫色:#ba68c8，青色:#4dd0e1，红色:#ef5350
-*/
-
-
-/*调用方式：
-<div class="content">
-  <div class="card">
-    <div class="card-side card-side-front">
-      <!-- Front Content -->
-      <div class="card-cont">
-        <span class="blue">名片封面</span><span>(<span class="green">'写啥都行'</span>)</span>
-      </div>
-    </div>
-    <div class="card-side card-side-back">
-      <!-- Back Content -->
-      <div class="card-cta">
-
-          <br />
-          <span class="space red">名字</span><span class="cyan">:</span> <span class="green">'安然'</span>,
-          <br/>
-          <span class="space red">邮箱</span><span class="cyan">:</span> <span class="green">不方便透露</span>',
-          <br/>
-          <span class="space red">工作室</span><span class="cyan">:</span> <span class="green">'**工作室'</span>,
-          <br/>
-          <span class="space red">网站</span><span class="cyan">:</span> <span class="green">'暂时没有（不存在的）'</span>
-         
-        </p>
-      </div>
-    </div>
-  </div>
-*/
-
-/*卡片*/
-.blue {
-  color: #29b6f6;
+input:checked+.checkbox2line::after {
+    transform: scaleX(0);
 }
 
-.green {
-  color: #9ccc65;
+input+.checkbox2line span::before {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px green;
+    background-color: #fff;
+    transition: 0.3s;
 }
 
-.purple {
-  color: #ba68c8;
+input:checked+.checkbox2line span::before {
+    box-shadow: inset 0 0 0 12px #275efe;
+    left: 32px;
 }
 
-.cyan {
-  color: #4dd0e1;
+input+.checkbox2line span {
+    line-height: 32px;
+    padding-left: 68px;
+    font-size: 20px;
 }
 
-.red {
-  color: #ef5350;
+/*checkbox2 over*/
+
+header.blue {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #3C96FF;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content {
-  height: 100vh;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+header.gray {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #F9F9F9;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card {
-  -webkit-perspective: 150rem;
-          perspective: 150rem;
-  height: 20rem;
-  width: 30rem;
-  position: relative;
+div.alertbox{
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    line-height: 45px;
+    text-indent: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.card-side {
-  height: 15rem;
-  transition: all 0.8s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: auto;
-  width: 30rem;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  border-radius: 3px;
-  overflow: hidden;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+div.alertbox.blue{
+    background-color:#116DCA;
+    color: white;
 }
-.card-side-front {
-  background-color: #1c1c1c;
-}
-.card-side-back {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  background-color: #1c1c1c;
-}
-.card:hover .card-side-front {
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
-.card:hover .card-side-back {
-  -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
-}
-.card-cont {
-  height: 15rem;
-  background-color: #1c1c1c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card-cta {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 90%;
-  color: white;
-}
-.card-cta p {
-  margin-left: 1rem;
-}
-.card-cta p > .space {
-  margin-left: 2rem;
-}
-
-
-.alert-blue{
-  border-radius: 5px;
-  height: 45px;
-  width: auto;
-  background-color:#d1e4fc;
-  font-size: 14px;
-  line-height: 45px;
-  text-indent: 20px;
-  color: #a18433;
-}
-
-.alert-red{
-  border-radius: 5px;
-  height: 45px;
-  width: auto;
-  background-color: #fff3cd;
-  font-size: 14px;
-  line-height: 45px;
-  text-indent: 20px;
-  color: #a18433;
+div.alertbox.red{
+    background-color: #E83C3F;
+    color: white;
 }

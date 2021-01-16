@@ -1,5 +1,3 @@
-/*EMUL_snapshot v0.1.2*/
-
 /*实心*/
 button.solid{
     border-style: solid;
@@ -103,3 +101,5 @@ button.hollow.yellow:hover {
     background-color:#ffbb00 ;
     color: white;
 }
+
+
