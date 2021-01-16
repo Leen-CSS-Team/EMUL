@@ -65,6 +65,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - An ran （@安然失笑か）
 
+- Guang_Chen_（光晨）
+
 Special thanks to: 可儿 for supporting Leafdeveloper
 
 Color card, color selection to provide and help:秋白
