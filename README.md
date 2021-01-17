@@ -64,8 +64,6 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - An ran （@安然失笑か）
 
-- Guang_Chen_（光晨）
-
 特别感谢：可儿 对于Leafdeveloper的支持
 
 色卡，颜色选择提供与帮助：秋白（注：秋白给我的色卡已经放在GitHub/Gitee上，如有需要可以去get～ <a href="https://github.com/leaf2006/qiu-bai-s-Color-Card">GitHub</a>&nbsp;&nbsp;<a href="https://gitee.com/leaf2006/qiu-bai-s-Color-Card">Gitee</a>
@@ -77,6 +75,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 - by Leaf Studio open source community
 
 - Leaf Studio
+
+- SnowMulberry STUDIO
 
 ## ChangeLog
 
@@ -119,6 +119,9 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·11·20 更新红色alert card
 
 - 2020·12·20 将snapshot版本中的card加入正式版中
+
+- 2021.1.16 开发新的switch（安然）注意：未加入
+- <img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/19.gif" >
 
 ## 提醒事项
 
