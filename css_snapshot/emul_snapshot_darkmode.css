@@ -1,0 +1,114 @@
+body {
+    background-color: #35363A;
+    font-family: Roboto, 'Segoe UI', Arial, 'Microsoft Yahei', sans-serif;
+    color: #E8EAED;
+    font-size: calc(100% - 1px);
+    line-height: calc(100% + 6px);
+}
+
+div.block.dark {
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 12px 20px;
+    margin-bottom: 1.5rem;
+    background-color: #3C4043;
+    width: auto;
+}
+
+div.header {
+    height: 50px;
+}
+
+button.dark {
+    font-family: Roboto, 'Segoe UI', Arial, 'Microsoft Yahei', sans-serif;
+    outline: none;
+    margin: auto;
+    border: none;
+    display: block;
+    color: white;
+    background-color: #35363A;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    /* Old Firefox */
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+button.dark:hover {
+    background-color: #454649;
+    transition-duration: 0.1s;
+}
+
+button.dark:active{
+    background-color: #56575a;
+}
+
+header.dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #202124;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.checkbox {
+    width: 34px;
+    height: 16px;
+    position: relative;
+    border: none;
+    background-color: #9AA0A6;
+    box-shadow: #DADCE0 0 0 0 0 inset;
+    border-radius: 20px;
+    background-clip: content-box;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+    
+}
+
+.checkbox:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    transition: left 0.2s;
+}
+
+.checkbox:checked:before {
+    background-color: #8AB4F8;
+    left: 17px;
+}
+
+.checkbox:checked {
+    border-color: #637A9E;
+    box-shadow: #637A9E 0 0 0 16px inset;
+    background-color: #637A9E;
+}
