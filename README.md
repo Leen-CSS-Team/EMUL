@@ -121,7 +121,11 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·12·20 将snapshot版本中的card加入正式版中
 
 - 2021.1.16 开发新的switch（安然）注意：未加入
-- <img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/19.gif" >
+- <img src="gif.gif" >
+- 2021.1.18 开发多层卡片（预计2021.2.11加入测试版）安然
+- <img src="many card.gif" >
+- 2021.1.18 安然：开发伸缩导航栏（预计2021.2.11加入测试版）
+- <img src="导航栏.gif" >
 
 ## 提醒事项
 
