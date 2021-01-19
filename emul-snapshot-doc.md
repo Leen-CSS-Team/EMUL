@@ -91,35 +91,34 @@ emul_snapshot_text_dark.css
 1.样式改变
 全新的样式如下：
 
-![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/11.png)
+<img src="button.PNG" >
 
-相比原来的样式，现在的小型按钮更小了，且更有移动端的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
+相比原来的样式，现在的小型按钮更"大”了，且更有移动端（安然：越看越像PC）的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
 
 2.代码改变
 
 全新的小型实心按钮，去除了后面的"small"字段，所以新版代码如下：
 
 ```html
-<button class="button-green">测试文字</button>
-
-<button class="button-red">测试文字</button>
-
-<button class="button-yellow">测试文字</button>
-
-<button class="button-blue">测试文字</button>
+    <button class="solid blue">solid blue</button>
+	
+    <button class="solid green">solid green</button>
+    
+    <button class="solid yellow">solid yellow</button>
+	
+    <button class="solid red">solid red</button>
+    
+    <button class="solid blue large">solid blue large</button>
+	
+    <button class="solid green large">solid green large</button>
+ 
+    <button class="solid yellow lage">solid yellow lage</button>
+	
+    <button class="solid red large">solid red large</button>
 ```
+注：若为中空按钮，请把solid改为hollow
+        且顺序可以随意打乱 (添加large则表示字体变大)
 
-- 蓝色button色系的改变
-
-目前EMUL-snapshot的蓝色小型实心的按钮色系发生改变，颜色由原来的 #0000ff 改为了 #27a4df ，渐变色从原来的 rgb(0, 0, 235) 改为了 #1772ff。新版button如下：
-
-![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/12.png)
-
-旧版本的蓝色button如下：
-
-![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/13.png)
-
-可以看出，新版的button色系比原来的button色系更加柔和且美观，在这里还要<b>特别感谢我都朋友秋白，是她提供了我许多的色卡，为按钮的配色提供了帮助</b>
 
 
 - 翻转卡片的更新
@@ -171,7 +170,7 @@ emul_snapshot_text_dark.css
 实现代码如下：
 
 ```html
-<input class="switch-green switch-anim-green" type="checkbox" checked>
+<input class="checkbox1 blue" type="checkbox" checked>
 ```
 
 蓝色样式：
@@ -179,19 +178,37 @@ emul_snapshot_text_dark.css
 ![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/10.gif)
 
 ```html
-<input class="switch-blue switch-anim-blue" type="checkbox" checked>
+<input class="checkbox1 blue" type="checkbox" checked>
+```
+- 新型switch（比leafdeveloper的更为美观“确信”）
+- <img src="gif.gif" >
+- 实现代码
+```html
+    <label class="checkbox2switch">
+        <input type="checkbox">
+        <div class="checkbox2line"><span /></div>
+    </label>
 ```
 
 - Alert Card（第一阶段更新）
 
 目前我们更新了全新的alert card（学习bootcss，哈哈哈）
 
-![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/14.png)
+<img src="alertbox bule.PNG" >
 
 实现代码：
 
 ```html
-<div class="alert-blue">
-		注意！网络未连接！
-</div>
+<div class="alertbox blue">阿巴阿巴</div>
+    <div class="alertbox red">阿巴阿巴</div>
 ```
+
+<img src="alertbox red.PNG" >
+
+实现代码：
+
+```html
+    <div class="alertbox red">阿巴阿巴</div>
+```
+
+感谢Guang_Chen_将调用代码重写一遍，使其更加的简洁！！
