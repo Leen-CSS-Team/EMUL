@@ -194,7 +194,7 @@ emul_snapshot_text_dark.css
 
 目前我们更新了全新的alert card（学习bootcss，哈哈哈）
 
-<img src="alertbox bule.PNG" >
+<img src="alertbox bule.gif" >
 
 实现代码：
 
@@ -203,7 +203,7 @@ emul_snapshot_text_dark.css
     <div class="alertbox red">阿巴阿巴</div>
 ```
 
-<img src="alertbox red.PNG" >
+<img src="alertbox red.gif" >
 
 实现代码：
 
