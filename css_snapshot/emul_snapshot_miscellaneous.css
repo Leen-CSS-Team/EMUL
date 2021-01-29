@@ -187,3 +187,17 @@ div.alertbox.red{
     background-color: #E83C3F;
     color: white;
 }
+
+.jumbotron{
+    height: auto;
+    width: auto;
+    background-color: #eaecef;
+    border-radius: 5px;
+  }
+
+  .line{
+      background-color: #d2d4d7;
+      height: 1px;
+      width: auto;
+      margin:0 10px
+  }
