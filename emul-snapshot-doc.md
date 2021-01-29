@@ -91,7 +91,7 @@ emul_snapshot_text_dark.css
 1.样式改变
 全新的样式如下：
 
-<img src="button.PNG" >
+<img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/25.PNG" >
 
 相比原来的样式，现在的小型按钮更"大”了，且更有移动端（安然：越看越像PC）的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
 
@@ -181,7 +181,7 @@ emul_snapshot_text_dark.css
 <input class="checkbox1 blue" type="checkbox" checked>
 ```
 - 新型switch（比leafdeveloper的更为美观“确信”）
-- <img src="gif.gif" >
+- <img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/26.gif" >
 - 实现代码
 ```html
     <label class="checkbox2switch">
@@ -194,7 +194,7 @@ emul_snapshot_text_dark.css
 
 目前我们更新了全新的alert card（学习bootcss，哈哈哈）
 
-<img src="alertbox bule.gif" >
+<img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/21.gif" >
 
 实现代码：
 
@@ -203,7 +203,7 @@ emul_snapshot_text_dark.css
     <div class="alertbox red">阿巴阿巴</div>
 ```
 
-<img src="alertbox red.gif" >
+<img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/23.gif" >
 
 实现代码：
 
