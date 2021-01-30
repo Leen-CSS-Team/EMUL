@@ -119,12 +119,12 @@ Team：
 
 - 2020·12·20 Add the card in the snapshot version to the official version
 - 2021.1.16 develop new switch (An ran)Note: Added Emul-snapshot (Guang)_ Chen_ Improved version)
-- <img src="gif.gif" >
+
 - Development of multi tier cards on January 18, 2021 (expected to join beta on February 11, 2021)An ran
-- <img src="many card.gif" >
+
 - 2021.1.18 An ran: development of scalable navigation bar (expected to be added to beta version on 2021.2.11)
-- <img src="导航栏.gif" > 
-- Guang_ Chen_ : call code rewriting
+
+   Guang_ Chen_ : call code rewriting
 
 ## Reminder
 

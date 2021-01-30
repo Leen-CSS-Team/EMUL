@@ -121,12 +121,12 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2020·12·20 将snapshot版本中的card加入正式版中
 
 - 2021.1.16 开发新的switch（安然）已加入Emul-snapshot（Guang_Chen_改良版）
-- <img src="gif.gif" >
+
 - 2021.1.18 开发多层卡片（预计2021.2.11加入测试版）安然
-- <img src="many card.gif" >
+
 - 2021.1.18 安然：开发伸缩导航栏（预计2021.2.11加入测试版）
-- <img src="导航栏.gif" >
-- Guang_Chen_:调用代码重写
+
+   Guang_Chen_:调用代码重写
 
 ## 提醒事项
 
