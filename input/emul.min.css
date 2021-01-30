@@ -1,433 +1,451 @@
 /*button*/
 /*实心按钮*/
 
-.button-green-small{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline:none;/*去除按钮周围的黑边框*/
-    border-radius: 8px;
-    font-size: 10px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+/*实心按钮*/
+.button-green{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align:middle
+  font-size: 16px;
+  width: auto;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;/*去除按钮周围的黑边框*/
+  border-radius: 8px;
+  height: 5px;
+  line-height: 5px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
-.button-green-small:hover{
-    background-color: #036d06;
+.button-green:hover{
+  background-color: #036d06;
 }
-.button-red-small{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline:none;
-    border-radius: 8px;
-    font-size: 10px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+.button-red{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align:middle
+  font-size: 16px;
+  width: auto;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;/*去除按钮周围的黑边框*/
+  border-radius: 8px;
+  height: 5px;
+  line-height: 5px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
-.button-red-small:hover{
-    background-color: rgb(236, 0, 0);
+.button-red:hover{
+  background-color: rgb(236, 0, 0);
 }
-.button-blue-small{
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+.button-blue{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align:middle
+  font-size: 16px;
+  width: auto;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;/*去除按钮周围的黑边框*/
+  border-radius: 8px;
+  height: 5px;
+  line-height: 5px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
-.button-blue-small:hover{
-    background-color: rgb(0, 0, 235);
+.button-blue:hover{
+  background-color: rgb(0, 0, 235);
 }
-.button-yellow-small{
-    background-color: yellow;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+.button-yellow{
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align:middle
+  font-size: 16px;
+  width: auto;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;/*去除按钮周围的黑边框*/
+  border-radius: 8px;
+  height: 5px;
+  line-height: 5px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
-.button-yellow-small:hover{
-    background-color: #E8F600;
+.button-yellow:hover{
+  background-color: #E8F600;
 }
 .button-green-large{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 .button-green-large:hover{
-    background-color: #036d06;
+  background-color: #036d06;
 }
 
 .button-red-large{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline:none;
-    border-radius: 8px;
-    font-size: 20px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;
+  border-radius: 8px;
+  font-size: 20px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 .button-red-large:hover{
-    background-color: rgb(236, 0, 0);
+  background-color: rgb(236, 0, 0);
 }
 
 .button-blue-large{
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  background-color:  #27a4df;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 .button-blue-large:hover{
-    background-color: rgb(0, 0, 235);
+  background-color: #1772ff;
 }
 
 .button-yellow-large{
-    background-color: yellow;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  background-color: yellow;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 .button-yellow-large:hover{
-    background-color: #E8F600;
+  background-color: #E8F600;
 }
 
 /*空心按钮*/
 
-.button-green-small-hollow{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid #036d06;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+.button-green-hollow{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  height: 5px;
+  width: auto;
+  line-height: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid #036d06;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
-.button-green-small-hollow:hover {
-    background-color:#036d06 ;
-    color: white;
-}
-
-.button-red-small-hollow{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid rgb(236, 0, 0) ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+.button-green-hollow:hover {
+  background-color:#036d06 ;
+  color: white;
 }
 
-.button-red-small-hollow:hover {
-    background-color: rgb(236, 0, 0);
-    color: white;
+.button-red-hollow{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  height: 5px;
+  width: auto;
+  line-height: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid #036d06;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
-.button-blue-small-hollow{
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid  rgb(0, 0, 235) ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+.button-red-hollow:hover {
+  background-color: rgb(236, 0, 0);
+  color: white;
 }
 
-.button-blue-small-hollow:hover{
-    background-color:  rgb(0, 0, 235);
-    color: white;
+.button-blue-hollow{
+  background-color: #27a4df;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  height: 5px;
+  width: auto;
+  line-height: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid #27a4df;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
-.button-yellow-small-hollow{
-     background-color: yellow;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 10px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid #E8F600 ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+.button-blue-hollow:hover{
+  background-color:  #1772ff;
+  color: white;
 }
-.button-yellow-small-hollow:hover{
-    background-color: #E8F600;
-    color: white;
+
+.button-yellow-hollow{
+   background-color: yellow;
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+   outline: none;
+   border-radius: 8px;
+   height: 5px;
+   width: auto;
+   line-height: 5px;
+   background-color: white;
+   color: black;
+   border: 2px solid #036d06;
+   -webkit-user-select:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+}
+.button-yellow-hollow:hover{
+  background-color: #E8F600;
+  color: white;
 }
 
 
 .button-green-large-hollow{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
 
-    background-color: white;
-    color: black;
-    border: 2px solid #036d06;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  background-color: white;
+  color: black;
+  border: 2px solid #036d06;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 .button-green-large-hollow:hover {
-    background-color:#036d06 ;
-    color: white;
+  background-color:#036d06 ;
+  color: white;
 }
 
 .button-red-large-hollow{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
 
-    background-color: white;
-    color: black;
-    border: 2px solid rgb(236, 0, 0) ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(236, 0, 0) ;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
 .button-red-large-hollow:hover {
-    background-color: rgb(236, 0, 0);
-    color: white;
+  background-color: rgb(236, 0, 0);
+  color: white;
 }
 
 .button-blue-large-hollow{
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
+  background-color: #27a4df;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
 
-    background-color: white;
-    color: black;
-    border: 2px solid  rgb(0, 0, 235) ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  background-color: white;
+  color: black;
+  border: 2px solid  #27a4df ;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
 .button-blue-large-hollow:hover{
-    background-color:  rgb(0, 0, 235);
-    color: white;
+  background-color:  #1772ff;
+  color: white;
 }
 
 .button-yellow-large-hollow{
-    background-color: yellow;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
+  background-color: yellow;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
 
-    background-color: white;
-    color: black;
-    border: 2px solid #E8F600 ;
+  background-color: white;
+  color: black;
+  border: 2px solid #E8F600 ;
 
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 .button-yellow-large-hollow:hover{
-    background-color: #E8F600;
-    color: white;
+  background-color: #E8F600;
+  color: white;
 }
+
 
 /*emul_miscellaneous*/
 .header-white{
