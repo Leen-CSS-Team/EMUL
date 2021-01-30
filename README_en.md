@@ -43,9 +43,7 @@ This method is not very fast, but it would be better speed, especially in the ne
 
 Note: The document has not been translated, please check the Chinese document:
 
-<a href="https://github.com/leaf2006/EMUL/wiki">github wiki</a>
-
-<a href="https://leaf2006.gitee.io/emul-webside/doc/home.html">Official document(Currently in beta, it is recommended to use a computer to read)</a>
+<a href="https://leaf2006.gitee.io/emul-docs/">Official document(Chinese)</a>
 
 ## about EMUL - the snapshot
 Emul-snapshot is a snapshot version of EMUL, updated frequently, but without EMUL stability. Stable contents within emUL-snapshot will be transferred to EMUL
