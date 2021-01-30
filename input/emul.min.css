@@ -835,58 +835,31 @@
   color: #a18433;
 }
 /*emul_text*/
-.emul-h1{
-	font-size: 32px;
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+h1.emul{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
 }
-
-.emul-h2{
-	font-size: 24px;
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+h2.emul{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 24px;
 }
-
-.emul-h3{
-	font-size: 18.72px;
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+h3.emul{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18.72px;
 }
-
-.emul-h4{
-	font-size: 16px;
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+h4.emul{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
 }
-
-.emul-h5{
-	font-size: 13.28px;
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+h5.emul{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 13.28px;
 }
-
-.emul-h6{
-	font-size: 12px;
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+h6.emul{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 12px;
 }
-
-.emul-p{
-	font-size: 16px;
-	-webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+p.emul{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
 }
