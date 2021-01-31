@@ -1,4 +1,4 @@
-## 在github上，有些图片可能因为网速原因加载不出来，影响文档体验，你可以选择<a href="https://gitee.com/leaf2006/EMUL/blob/master/emul-snapshot-doc.md" target="_blank">在gitee查看</a>
+### 在github上，有些图片可能因为网速原因加载不出来，影响文档体验，你可以选择<a href="https://gitee.com/leaf2006/EMUL/blob/master/emul-snapshot-doc.md" target="_blank">在gitee查看</a>
 
 # EMUL-snapshot-doc
 
@@ -157,32 +157,11 @@ emul_snapshot_text_dark.css
   </div>
   ```
   
- - 新版本的switch开关（switch第二阶段更新）
+ - 新版本的switch开关（switch第三阶段更新）
 
- 由于第一代switch开关出现了部分问题，现在更新出第二代switch并将尽快入正式版
-
-绿色样式：
-
-![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/9.gif)
-
-全新样式的switch开关不仅仅更加有移动端的风格，且在触发后的动画效果也更为优美。
-
-实现代码如下：
-
-```html
-<input class="checkbox1 blue" type="checkbox" checked>
-```
-
-蓝色样式：
-
-![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/10.gif)
-
-```html
-<input class="checkbox1 blue" type="checkbox" checked>
-```
-- 新型switch（比leafdeveloper的更为美观“确信”）
+新型switch（比leafdeveloper的更为美观“确信”）
 - <img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/26.gif" >
-- 实现代码
+ 实现代码：
 ```html
     <label class="checkbox2switch">
         <input type="checkbox">
@@ -212,3 +191,39 @@ emul_snapshot_text_dark.css
 ```
 
 感谢Guang_Chen_将调用代码重写一遍，使其更加的简洁！！
+
+- jumbotron
+
+这是全新的“巨幕(Jumbotron)组件。它是一个轻量版的一个巨型卡片。（仿bootcss）
+
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/27.png)
+
+```html
+<div class="jumbotron">
+		<div class="jumbotron-title">Hello World</div>
+		<div class="line"></div>
+		<div class="jumbotron-text">This is jumbotron from EMUL!</div>
+		<button class="solid blue large">Learn more</button>
+  </div>
+  ```
+
+<b>拆分代码</b>
+
+内部粗体标题文字，请调用：
+
+```html
+<div class="jumbotron-title">Add the words do you want</div>
+```
+
+内容细体正文文字，请调用：
+
+```html
+<div class="jumbotron-text">Add the words do you want
+</div>
+```
+
+如要分隔标题和正文，可以调用：
+
+```html
+<div class="line"></div>
+```
