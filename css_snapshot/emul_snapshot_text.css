@@ -30,4 +30,12 @@ p.emul{
     line-height: 80px;
     text-indent: 30px;
     font-size: 32px;
+    font-weight: 550;
+}
+
+.jumbotron-text{
+    font-size: 18.72px;
+    font-weight: lighter;
+    line-height: 30px;
+    text-indent: 10px;
 }
