@@ -126,7 +126,9 @@ Team：
 
 - 2021·1·30 New "text" added to the official version
 
-- 2021·1·31 update the Big Mac component (snapshot version)
+- 2020·1·31 Update jumbotron components(snapshot version)
+
+- 2021·2·2 Update the button of the original snapshot version to the official version
 
 ## Reminder
 
