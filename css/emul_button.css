@@ -1,209 +1,58 @@
-/*实心按钮*/
-.button-green{
-    background-color: green;
-    border: none;
-    color: white;
+/*实心*/
+button.solid{
+    border-style: solid;
+    border-width: 1px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    vertical-align:middle
+    vertical-align:middle;
     font-size: 16px;
     width: auto;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline:none;/*去除按钮周围的黑边框*/
-    border-radius: 8px;
-    height: 5px;
-    line-height: 5px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-.button-green:hover{
-    background-color: #036d06;
-}
-.button-red{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    vertical-align:middle
-    font-size: 16px;
-    width: auto;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline:none;/*去除按钮周围的黑边框*/
-    border-radius: 8px;
-    height: 5px;
-    line-height: 5px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-.button-red:hover{
-    background-color: rgb(236, 0, 0);
-}
-.button-blue{
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    vertical-align:middle
-    font-size: 16px;
-    width: auto;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline:none;/*去除按钮周围的黑边框*/
-    border-radius: 8px;
-    height: 5px;
-    line-height: 5px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-.button-blue:hover{
-    background-color: rgb(0, 0, 235);
-}
-.button-yellow{
-    background-color: yellow;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    vertical-align:middle
-    font-size: 16px;
-    width: auto;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline:none;/*去除按钮周围的黑边框*/
-    border-radius: 8px;
-    height: 5px;
-    line-height: 5px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-.button-yellow:hover{
-    background-color: #E8F600;
-}
-.button-green-large{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-.button-green-large:hover{
-    background-color: #036d06;
-}
-
-.button-red-large{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     outline:none;
     border-radius: 8px;
-    font-size: 20px;
+    height: 5px;
+    line-height: 3px;
+    user-select:none;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
-    user-select:none;
 }
-.button-red-large:hover{
-    background-color: rgb(236, 0, 0);
-}
-
-.button-blue-large{
-    background-color:  #27a4df;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+button.large{
     outline: none;
-    border-radius: 8px;
     font-size: 20px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
 }
-.button-blue-large:hover{
-    background-color: #1772ff;
-}
-
-.button-yellow-large{
-    background-color: yellow;
-    border: none;
+button.solid.blue{
+    border-color: #DEE1E6;
+    background-color: #3C96FF;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
 }
-.button-yellow-large:hover{
-    background-color: #E8F600;
-}
-
-/*空心按钮*/
-
-.button-green-hollow{
-    background-color: green;
-    border: none;
+button.solid.green{
+    border-color: #DEE1E6;
+    background-color: #3f9965;
     color: white;
+}
+button.solid.yellow{
+    border-color: #DEE1E6;
+    background-color: #ffbb00;
+    color: black;
+}
+button.solid.red{
+    border-color: #DEE1E6;
+    background-color: #E73D32;
+    color: white;
+}
+/*空心*/
+button.hollow{
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
     outline: none;
@@ -211,234 +60,44 @@
     height: 5px;
     width: auto;
     line-height: 5px;
-    background-color: white;
-    color: black;
-    border: 2px solid #036d06;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
 }
-.button-green-hollow:hover {
-    background-color:#036d06 ;
-    color: white;
-}
-
-.button-red-hollow{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    height: 5px;
-    width: auto;
-    line-height: 5px;
+button.hollow.green{
     background-color: white;
     color: black;
-    border: 2px solid #036d06;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+    border: 2px solid #3f9965;
 }
-
-.button-red-hollow:hover {
-    background-color: rgb(236, 0, 0);
+button.hollow.green:hover {
+    background-color:#3f9965 ;
     color: white;
 }
-
-.button-blue-hollow{
-    background-color: #27a4df;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    height: 5px;
-    width: auto;
-    line-height: 5px;
+button.hollow.red{
     background-color: white;
     color: black;
-    border: 2px solid #27a4df;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+    border: 2px solid #E73D32;
 }
-
-.button-blue-hollow:hover{
-    background-color:  #1772ff;
+button.hollow.red:hover {
+    background-color:#E73D32 ;
     color: white;
 }
-
-.button-yellow-hollow{
-     background-color: yellow;
-     border: none;
-     color: white;
-     padding: 16px 32px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-     -webkit-transition-duration: 0.4s; /* Safari */
-     transition-duration: 0.4s;
-     cursor: pointer;
-     outline: none;
-     border-radius: 8px;
-     height: 5px;
-     width: auto;
-     line-height: 5px;
-     background-color: white;
-     color: black;
-     border: 2px solid #036d06;
-     -webkit-user-select:none;
-     -moz-user-select:none;
-     -ms-user-select:none;
-     user-select:none;
-}
-.button-yellow-hollow:hover{
-    background-color: #E8F600;
-    color: white;
-}
-
-
-.button-green-large-hollow{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-
+button.hollow.blue{
     background-color: white;
     color: black;
-    border: 2px solid #036d06;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+    border: 2px solid #3C96FF;
 }
-.button-green-large-hollow:hover {
-    background-color:#036d06 ;
+button.hollow.blue:hover {
+    background-color:#3C96FF ;
     color: white;
 }
-
-.button-red-large-hollow{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-
+button.hollow.yellow{
     background-color: white;
     color: black;
-    border: 2px solid rgb(236, 0, 0) ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+    border: 2px solid #ffbb00;
 }
-
-.button-red-large-hollow:hover {
-    background-color: rgb(236, 0, 0);
-    color: white;
-}
-
-.button-blue-large-hollow{
-    background-color: #27a4df;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid  #27a4df ;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-
-.button-blue-large-hollow:hover{
-    background-color:  #1772ff;
-    color: white;
-}
-
-.button-yellow-large-hollow{
-    background-color: yellow;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    font-size: 20px;
-
-    background-color: white;
-    color: black;
-    border: 2px solid #E8F600 ;
-
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-.button-yellow-large-hollow:hover{
-    background-color: #E8F600;
+button.hollow.yellow:hover {
+    background-color:#ffbb00 ;
     color: white;
 }
