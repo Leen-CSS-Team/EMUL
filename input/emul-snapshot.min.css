@@ -1,6 +1,14 @@
 /*emul_snapshot_button*/
 
+
 /*EMUL_snapshot v 0.1.1*/
+
+
+/*实心*/
+
+
+/*emul_button*/
+
 
 /*实心*/
 
@@ -26,8 +34,9 @@ button.solid {
     -ms-user-select: none;
 }
 
-button.large {
-    outline: none;
+button.solid.large,
+button.hollow.large {
+    padding: 18px 32px;
     font-size: 20px;
 }
 
@@ -54,6 +63,7 @@ button.solid.red {
     background-color: #E73D32;
     color: white;
 }
+
 
 /*空心*/
 
@@ -122,7 +132,9 @@ button.hollow.yellow:hover {
     color: white;
 }
 
+
 /*emul_snapshot_miscellaneous*/
+
 
 /*checkbox1 begin*/
 
@@ -175,7 +187,9 @@ input.checkbox1 {
     background-color: #64bd63;
 }
 
+
 /*checkbox1 over*/
+
 
 /*checkbox2 begin*/
 
@@ -201,7 +215,8 @@ input.checkbox1 {
     border-radius: 16px;
 }
 
-input+.checkbox2line::before, input+.checkbox2line::after {
+input+.checkbox2line::before,
+input+.checkbox2line::after {
     position: absolute;
     top: 14px;
     content: "";
@@ -256,6 +271,7 @@ input+.checkbox2line span {
     font-size: 20px;
 }
 
+
 /*checkbox2 over*/
 
 header.blue {
@@ -296,75 +312,85 @@ header.gray {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div.alertbox{
+div.alertbox {
     border-radius: 5px;
     height: auto;
     width: auto;
     font-size: 16px;
     line-height: 45px;
     text-indent: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div.alertbox.blue{
-    background-color:#116DCA;
+
+div.alertbox.blue {
+    background-color: #116DCA;
     color: white;
 }
-div.alertbox.red{
+
+div.alertbox.red {
     background-color: #E83C3F;
     color: white;
 }
 
-.jumbotron{
+.jumbotron {
     height: auto;
     width: auto;
     background-color: #eaecef;
     border-radius: 5px;
-  }
+}
 
-.line{
-      background-color: #d2d4d7;
-      height: 1px;
-      width: auto;
-  }
+.line {
+    background-color: #d2d4d7;
+    height: 1px;
+    width: auto;
+}
+
 
 /*emul_snapshot_text*/
 
-h1.emul{
+h1.emul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32px;
 }
-h2.emul{
+
+h2.emul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 24px;
+    font-size: 24px;
 }
-h3.emul{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 18.72px;
+
+h3.emul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18.72px;
 }
-h4.emul{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 16px;
+
+h4.emul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
-h5.emul{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 13.28px;
+
+h5.emul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13.28px;
 }
-h6.emul{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 12px;
+
+h6.emul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
 }
-p.emul{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 16px;
+
+p.emul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
-.jumbotron-title{
+
+.jumbotron-title {
     line-height: 80px;
     text-indent: 30px;
     font-size: 32px;
     font-weight: 550;
 }
 
-.jumbotron-text{
+.jumbotron-text {
     font-size: 18.72px;
     font-weight: lighter;
     line-height: 30px;
