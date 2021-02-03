@@ -22,13 +22,13 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 
 ```html
 <!--主线-->
-<link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/input/emul.min.css">
+<link rel="stylesheet" type="text/css" href="https://leen-css-team.gitee.io/emul/input/emul.min.css">
 ```
 
 当然，这没有使用cdn加速（我也没钱搞cdn），因为这只是通过普通的gitee pages所实现的，如果你身居国外，也许通过下面的github pages所实现的更快一些：
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://leaf2006.github.io/EMUL/input/emul.min.css">
+<link rel="stylesheet" type="text/css" href="https://leen-css-team.github.io/EMUL/input/emul.min.css">
 ```
 
 - 下载css文件使用
@@ -39,7 +39,7 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 
 #### 文档请看：
 
-<a href="https://leaf2006.gitee.io/emul-docs/">官方文档（中文）</a>
+<a href="https://leen-css-team.gitee.io/emul-docs/">官方文档（中文）</a>
 
 ## 关于EMUL-snapshot
 
@@ -129,6 +129,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 - 2021·1·31 更新jumbotron组件（snapshot版）
 
 - 2021·2·2 更新原snapshot版本的button至正式版
+
+- 2021·2·3 EMUL全部东西（除网站）搬迁至Leen-css-team官方共有仓库
 
 ## 提醒事项
 

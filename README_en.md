@@ -31,7 +31,7 @@ To use EMUL,you can do this in two ways:
 You only need to use the following code to use EMUL:
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://leaf2006.github.io/EMUL/input/emul.min.css">
+<link rel="stylesheet" type="text/css" href="https://leen-css-team.github.io/emul/input/emul.min.css">
 ```
 Of course, this is not accelerated with a CDN (I don't have the money for a CDN either) as it is only done with the common Gitee Pages.
 
@@ -43,7 +43,7 @@ This method is not very fast, but it would be better speed, especially in the ne
 
 Note: The document has not been translated, please check the Chinese document:
 
-<a href="https://leaf2006.gitee.io/emul-docs/">Official document(Chinese)</a>
+<a href="https://leen-css-team.gitee.io/emul-docs/">Official document(Chinese)</a>
 
 ## about EMUL - the snapshot
 Emul-snapshot is a snapshot version of EMUL, updated frequently, but without EMUL stability. Stable contents within emUL-snapshot will be transferred to EMUL
@@ -129,6 +129,8 @@ Team：
 - 2020·1·31 Update jumbotron components(snapshot version)
 
 - 2021·2·2 Update the button of the original snapshot version to the official version
+
+- 2021·2·3 EMUL moved everything (except the website) to the official common warehouse of leen CSS team
 
 ## Reminder
 

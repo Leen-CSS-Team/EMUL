@@ -1,4 +1,4 @@
-### 在github上，有些图片可能因为网速原因加载不出来，影响文档体验，你可以选择<a href="https://gitee.com/leaf2006/EMUL/blob/master/emul-snapshot-doc.md" target="_blank">在gitee查看</a>
+### 在github上，有些图片可能因为网速原因加载不出来，影响文档体验，你可以选择<a href="https://gitee.com/leen-css-team/EMUL/blob/master/emul-snapshot-doc.md" target="_blank">在gitee查看</a>
 
 # EMUL-snapshot-doc
 
@@ -22,10 +22,10 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
 
 ```html
 <!--主线-->
-<link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/input/emul-snapshot.min.css">
+<link rel="stylesheet" type="text/css" href="https://leen-css-team.gitee.io/emul/input/emul-snapshot.min.css">
 
 <!--github线路-->
-<link rel="stylesheet" type="text/css" href="https://leaf2006.github.io/EMUL/input/emul-snapshot.min.css">
+<link rel="stylesheet" type="text/css" href="https://leen-css-team.github.io/EMUL/input/emul-snapshot.min.css">
 ```
 
 也可以可以git clone本项目，或者通过代码仓库提供的下载按钮下载.zip，然后将<kbd>文件夹css</kbd>中的一些<kbd>.css</kbd>文件引入至你的<kbd>.html</kbd>文件中，即可使用。
@@ -79,7 +79,7 @@ emul_snapshot_text_dark.css
 <link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/input/emul-snapshot-dark.min.css">
 
 <!--github线路-->
-<link rel="stylesheet" type="text/css" href="https://leaf2006.github.io/EMUL/input/emul-snapshot-dark.min.css">
+<link rel="stylesheet" type="text/css" href="https://leen-css-team.github.io/EMUL/input/emul-snapshot-dark.min.css">
 ```
 
 为了确保原有功能的完整，全新的夜间模式与原来的夜间模式实现共存
