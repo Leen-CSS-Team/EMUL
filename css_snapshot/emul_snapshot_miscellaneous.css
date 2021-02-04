@@ -132,6 +132,49 @@ input+.checkbox2line span {
 
 /*checkbox2 over*/
 
+/*checkbox3 begin*/
+
+input.checkbox3 {
+    width: 34px;
+    height: 16px;
+    position: relative;
+    border: none;
+    background-color: #9AA0A6;
+    box-shadow: #DADCE0 0 0 0 0 inset;
+    border-radius: 20px;
+    background-clip: content-box;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+}
+
+.checkbox3:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    transition: left 0.2s;
+}
+
+.checkbox3:checked:before {
+    background-color: #8AB4F8;
+    left: 17px;
+}
+
+.checkbox3:checked {
+    border-color: #637A9E;
+    box-shadow: #637A9E 0 0 0 16px inset;
+    background-color: #637A9E;
+}
+
+/*checkbox3 over*/
+
 header.blue {
     position: fixed;
     top: 0;
@@ -170,33 +213,35 @@ header.gray {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div.alertbox{
+div.alertbox {
     border-radius: 5px;
     height: auto;
     width: auto;
     font-size: 16px;
     line-height: 45px;
     text-indent: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div.alertbox.blue{
-    background-color:#116DCA;
+
+div.alertbox.blue {
+    background-color: #116DCA;
     color: white;
 }
-div.alertbox.red{
+
+div.alertbox.red {
     background-color: #E83C3F;
     color: white;
 }
 
-.jumbotron{
+.jumbotron {
     height: auto;
     width: auto;
     background-color: #eaecef;
     border-radius: 5px;
-  }
+}
 
-.line{
-      background-color: #d2d4d7;
-      height: 1px;
-      width: auto;
-  }
+.line {
+    background-color: #d2d4d7;
+    height: 1px;
+    width: auto;
+}
