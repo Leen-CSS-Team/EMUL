@@ -123,6 +123,11 @@ button.hollow.yellow:hover {
     color: white;
 }
 
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 
 /*emul_miscellaneous*/
 
