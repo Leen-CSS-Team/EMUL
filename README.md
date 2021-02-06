@@ -134,6 +134,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - 2021·2·3 EMUL全部东西（除网站）搬迁至Leen-css-team官方共有仓库
 
+- 2021·2·6 更新不可点击的按钮
+
 ## 提醒事项
 
 - （已修复）~~2020·10·19 已知bug：switch开关在某些情况下会有错版状态，目前正式版已更新开关，为了防止bug影响大已经取消switch开关在正式版的文档。~~

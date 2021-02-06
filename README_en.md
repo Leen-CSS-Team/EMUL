@@ -118,6 +118,7 @@ Team：
 - 2020·11·20 update red alert card
 
 - 2020·12·20 Add the card in the snapshot version to the official version
+
 - 2021.1.16 develop new switch (An ran)Note: Added Emul-snapshot (Guang)_ Chen_ Improved version)
 
 - Development of multi tier cards on January 18, 2021 (expected to join beta on February 11, 2021)An ran
@@ -133,6 +134,8 @@ Team：
 - 2021·2·2 Update the button of the original snapshot version to the official version
 
 - 2021·2·3 EMUL moved everything (except the website) to the official common warehouse of leen CSS team
+
+- 2021·2·6 Update non-clickable buttons
 
 ## Reminder
 
