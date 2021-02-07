@@ -1,7 +1,12 @@
-/*emul_button*/
-
-
 /*实心*/
+button.solid:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+button.hollow:disabled{
+    cursor: not-allowed;
+}
 
 button.solid {
     border-style: solid;
@@ -79,13 +84,13 @@ button.hollow {
     user-select: none;
 }
 
-button.hollow.green {
+button.hollow.green{
     background-color: white;
     color: black;
     border: 2px solid #3f9965;
 }
 
-button.hollow.green:hover {
+button.hollow.green:hover:not(:disabled) {
     background-color: #3f9965;
     color: white;
 }
@@ -96,7 +101,7 @@ button.hollow.red {
     border: 2px solid #E73D32;
 }
 
-button.hollow.red:hover {
+button.hollow.red:hover:not(:disabled) {
     background-color: #E73D32;
     color: white;
 }
@@ -107,7 +112,7 @@ button.hollow.blue {
     border: 2px solid #3C96FF;
 }
 
-button.hollow.blue:hover {
+button.hollow.blue:hover:not(:disabled) {
     background-color: #3C96FF;
     color: white;
 }
@@ -118,7 +123,7 @@ button.hollow.yellow {
     border: 2px solid #ffbb00;
 }
 
-button.hollow.yellow:hover {
+button.hollow.yellow:hover:not(:disabled) {
     background-color: #ffbb00;
     color: white;
 }
