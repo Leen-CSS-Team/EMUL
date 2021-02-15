@@ -227,3 +227,16 @@ emul_snapshot_text_dark.css
 ```html
 <div class="line"></div>
 ```
+
+- 小型按钮（small button）
+
+目前为了丰富按钮的多样性与可用性，我们加入了小型按钮来进一步完善按钮
+
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/28.png)
+
+```html
+<button class="button small blue">测试文字</button>
+<button class="button small green">测试文字</button>
+<button class="button small yellow">测试文字</button>
+<button class="button small red">测试文字</button>
+  ```

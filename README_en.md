@@ -137,6 +137,8 @@ Team：
 
 - 2021·2·6 Update non-clickable buttons
 
+- 2021·1·15 update small button
+
 ## Reminder
 
 - (already fixed)~~2020·10·19 Known bug: The switch will have the wrong version status in some cases. The switch has been updated in the official version. In order to prevent the impact of the bug, the switch document in the official version has been cancelled.~~-Development
