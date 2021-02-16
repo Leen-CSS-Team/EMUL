@@ -32,57 +32,7 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
 
 ## 比普通的EMUL更新了什么
 
-- 增加了dark模式的导航栏
-
-![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/%E6%8D%95%E8%8E%B7.PNG)
-
-全新的dark导航栏
-
-全新的dark导航栏写法如下：
-
-```html
-<header class="header-dark">
-    测试文字
-</header>
-```
-
-当然，如果你要使用它，请尽量使用深色背景，EMUL建议使用以下css代码：
-
-```css
- body{
-    background-color: #181818;
-}
-```
-
-- 重点在此，EMUL的dark模式正式测试
-
-目前我们实现夜间模式的办法十分简单粗暴，就是——直接写一个新的css（逃）
-
-目前在css_snapshot里面为夜间模式源码的为：
-
-```
-emul_snapshot_background_dark.css
-
-emul_snapshot_button_dark.css
-
-emul_snapshot_miscellaneous_dark.css
-
-emul_snapshot_text_dark.css
-```
-
-只要将这四个css文件link引入即可
-
-更加便携的引入方式我们也准备好了，通过以下代码即可引入：
-
-```html
-<!--主线-->
-<link rel="stylesheet" type="text/css" href="https://leaf2006.gitee.io/emul/input/emul-snapshot-dark.min.css">
-
-<!--github线路-->
-<link rel="stylesheet" type="text/css" href="https://leen-css-team.github.io/EMUL/input/emul-snapshot-dark.min.css">
-```
-
-为了确保原有功能的完整，全新的夜间模式与原来的夜间模式实现共存
+- <font color="red">深色模式目前已停止测试</font>
 
 - 全新button（button第一阶段更新）
 
