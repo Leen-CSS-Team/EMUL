@@ -8,6 +8,7 @@
 
 
 /*实心*/
+/*实心*/
 button.solid:disabled{
     opacity: 0.6;
     cursor: not-allowed;
@@ -183,7 +184,8 @@ button.small.blue{
 
 button.small.green{
     border-color: #DEE1E6;
-    background-color: 
+    background-color: #3f9965;
+    color: white;
 }
 
 button.small.yellow{
@@ -196,6 +198,10 @@ button.small.red {
     border-color: #DEE1E6;
     background-color: #E73D32;
     color: white;
+}
+
+button.full{
+    width: 100%;
 }
 /*emul_snapshot_miscellaneous*/
 
