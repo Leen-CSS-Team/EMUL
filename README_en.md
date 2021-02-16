@@ -137,7 +137,9 @@ Team：
 
 - 2021·2·6 Update non-clickable buttons
 
-- 2021·1·15 update small button
+- 2021·2·15 update small button in snapshot
+
+- 2021·2·16 update full button in snapshot
 
 ## Reminder
 

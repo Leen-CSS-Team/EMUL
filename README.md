@@ -138,6 +138,8 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - 2021·2·15 snapshot版本更新小型按钮
 
+- 2021·2·16 snapshot版本更新full button
+
 ## 提醒事项
 
 - （已修复）~~2020·10·19 已知bug：switch开关在某些情况下会有错版状态，目前正式版已更新开关，为了防止bug影响大已经取消switch开关在正式版的文档。~~
