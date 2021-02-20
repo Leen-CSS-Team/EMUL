@@ -50,6 +50,10 @@ Emul-snapshot is a snapshot version of EMUL, updated frequently, but without EMU
 
 A detailed description and documentation of emUL-Snapshot is available<a href="emul-snapshot-doc.md">Click here to view(Chinese)</a>
 
+## Contributing
+
+Feel free to dive in! Open an issue or submit PRs.
+
 ## License
 
 #### This product is under the MIT open source agreement

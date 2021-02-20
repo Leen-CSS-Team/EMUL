@@ -47,6 +47,10 @@ EMUL-snapshot是EMUL的快照版，更新频繁，但是并无EMUL稳定，EMUL-
 
 有关EMUL-snapshot的详细介绍以及文档请<a href="emul-snapshot-doc.md">点击此处查看</a>
 
+## 参与贡献方式
+
+你可以随时创建issue或者提交PR来参与贡献！
+
 ## License
 
 #### 本产品遵循MIT开源协议
