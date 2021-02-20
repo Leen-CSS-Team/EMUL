@@ -147,6 +147,8 @@ Team：
 
 - 2021·2·16 fix bugs
 
+- 2021·2·19 Update the button style of the original snapshot to the official version
+
 ## Reminder
 
 - (already fixed)~~2020·10·19 Known bug: The switch will have the wrong version status in some cases. The switch has been updated in the official version. In order to prevent the impact of the bug, the switch document in the official version has been cancelled.~~-Development
