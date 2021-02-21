@@ -3,12 +3,6 @@
 /*EMUL_snapshot v 0.1.1*/
 
 /*实心*/
-
-/*emul_button*/
-
-
-/*实心*/
-/*实心*/
 button.solid:disabled{
     opacity: 0.6;
     cursor: not-allowed;
@@ -38,6 +32,11 @@ button.solid {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+}
+
+button.solid:active,
+button.hollow:active:not(:disabled){
+    opacity: 0.6;
 }
 
 button.solid.large,
@@ -74,71 +73,6 @@ button.solid.red {
 /*空心*/
 
 button.hollow {
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 8px;
-    height: 5px;
-    width: auto;
-    line-height: 5px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-button.hollow.green{
-    background-color: white;
-    color: black;
-    border: 2px solid #3f9965;
-}
-
-button.hollow.green:hover:not(:disabled) {
-    background-color: #3f9965;
-    color: white;
-}
-
-button.hollow.red {
-    background-color: white;
-    color: black;
-    border: 2px solid #E73D32;
-}
-
-button.hollow.red:hover:not(:disabled) {
-    background-color: #E73D32;
-    color: white;
-}
-
-button.hollow.blue {
-    background-color: white;
-    color: black;
-    border: 2px solid #3C96FF;
-}
-
-button.hollow.blue:hover:not(:disabled) {
-    background-color: #3C96FF;
-    color: white;
-}
-
-button.hollow.yellow {
-    background-color: white;
-    color: black;
-    border: 2px solid #ffbb00;
-}
-
-button.hollow.yellow:hover:not(:disabled) {
-    background-color: #ffbb00;
-    color: white;
-}
-/*
-button.small{
     border-style: solid;
     border-width: 1px;
     padding: 15px 32px;
@@ -146,8 +80,8 @@ button.small{
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
-    font-size: 10px;
-    height: 30px;
+    font-size: 16px;
+    height: 40px;
     width: auto;
     margin: 4px 2px;
     cursor: pointer;
@@ -158,6 +92,50 @@ button.small{
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+}
+
+button.hollow.green{
+    background-color: white;
+    color: black;
+    border: 2px solid #3f9965;
+}
+/*
+button.hollow.green:hover:not(:disabled) {
+    background-color: #3f9965;
+    color: white;
+}
+*/
+button.hollow.red {
+    background-color: white;
+    color: black;
+    border: 2px solid #E73D32;
+}
+/*
+button.hollow.red:hover:not(:disabled) {
+    background-color: #E73D32;
+    color: white;
+}
+*/
+button.hollow.blue {
+    background-color: white;
+    color: black;
+    border: 1px solid #3C96FF;
+}
+/*
+button.hollow.blue:hover:not(:disabled) {
+    background-color: #3C96FF;
+    color: white;
+}
+*/
+button.hollow.yellow {
+    background-color: white;
+    color: black;
+    border: 2px solid #ffbb00;
+}
+/*
+button.hollow.yellow:hover:not(:disabled) {
+    background-color: #ffbb00;
+    color: white;
 }
 */
 button.small{
