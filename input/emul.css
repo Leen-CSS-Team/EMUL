@@ -96,7 +96,7 @@ button.hollow {
 button.hollow.green{
     background-color: white;
     color: black;
-    border: 2px solid #3f9965;
+    border: 1px solid #3f9965;
 }
 /*
 button.hollow.green:hover:not(:disabled) {
@@ -107,7 +107,7 @@ button.hollow.green:hover:not(:disabled) {
 button.hollow.red {
     background-color: white;
     color: black;
-    border: 2px solid #E73D32;
+    border: 1px solid #E73D32;
 }
 /*
 button.hollow.red:hover:not(:disabled) {
@@ -129,7 +129,7 @@ button.hollow.blue:hover:not(:disabled) {
 button.hollow.yellow {
     background-color: white;
     color: black;
-    border: 2px solid #ffbb00;
+    border: 1px solid #ffbb00;
 }
 /*
 button.hollow.yellow:hover:not(:disabled) {
@@ -180,7 +180,6 @@ button.small.red {
 button.full{
     width: 100%;
 }
-
 /*emul_miscellaneous*/
 
 .header-white {
