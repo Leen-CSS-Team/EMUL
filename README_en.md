@@ -151,6 +151,8 @@ Team：
 
 - 2021·2·21 Update the style of the hollow button and optimize the syntax
 
+- 2021·3·12 snapshot version update pop-ups(Happy Arbor Day!)
+
 ## Reminder
 
 - (already fixed)~~2020·10·19 Known bug: The switch will have the wrong version status in some cases. The switch has been updated in the official version. In order to prevent the impact of the bug, the switch document in the official version has been cancelled.~~-Development
