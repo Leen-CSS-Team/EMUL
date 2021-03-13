@@ -34,43 +34,6 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
 
 - <font color="red">深色模式目前已停止测试</font>
 
-- 全新button（button第一阶段更新）
-
-为了更好的适应移动端，目前EMUL-snapshot测试一种全新的button样式，目前业已完成第一阶段更新，主要更新了小型实心按钮的样式
-
-1.样式改变
-全新的样式如下：
-
-<img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/25.PNG" >
-
-相比原来的样式，现在的小型按钮更"大”了，且更有移动端（安然：越看越像PC）的味道，并且现在新版的小型实心按钮有着更好的文字支持，同时给黄色按钮这种内部文字不容易看清的按钮的内部文字改成了黑色。
-
-2.代码改变
-
-全新的小型实心按钮，去除了后面的"small"字段，所以新版代码如下：
-
-```html
-    <button class="solid blue">solid blue</button>
-	
-    <button class="solid green">solid green</button>
-    
-    <button class="solid yellow">solid yellow</button>
-	
-    <button class="solid red">solid red</button>
-    
-    <button class="solid blue large">solid blue large</button>
-	
-    <button class="solid green large">solid green large</button>
- 
-    <button class="solid yellow lage">solid yellow lage</button>
-	
-    <button class="solid red large">solid red large</button>
-```
-注：若为中空按钮，请把solid改为hollow
-        且顺序可以随意打乱 (添加large则表示字体变大)
-
-
-
 - 翻转卡片的更新
 
 在全新版本，我们更新了翻转卡片，效果如下（日常拿安然试验）：
@@ -190,3 +153,76 @@ EMUL为了追求稳定性，更新速度将减慢，直至在EMUL-snapshot里的
 <button class="button small yellow">测试文字</button>
 <button class="button small red">测试文字</button>
   ```
+
+- pop-ups弹窗
+
+目前全新的pop-ups弹窗的样式只有一个，等到添加进正式版之后会增多。
+
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/29.png)
+
+调用方法为：
+
+```html
+
+<div class="container">
+  <div class="interior">
+    <a class="btn" href="#open-modal">Basic CSS-Only Modal</a>
+  </div>
+</div>
+<div id="open-modal" class="modal-window">
+  <div>
+    <a href="#" title="Close" class="modal-close">X</a>
+    <h1 class="text">成功！</h1>
+    <div class="text">我觉得挺好的！哈哈哈哈哈</div>
+    <div><small>Check out</small></div>
+    </div>
+</div>
+```
+
+其中，那个“X”实际上是拟UI中的关闭图标。如果你想要改为更加形象的图标，完全可以调用图标库。这里可以推荐<a href="https://icons.bootcss.com/">bootstrap-icons</a>或者<a href="https://www.iconfont.cn/">iconfont</a>
+
+示例：
+
+```html
+<div class="container">
+  <div class="interior">
+    <a class="btn" href="#open-modal">Basic CSS-Only Modal</a>
+  </div>
+</div>
+<div id="open-modal" class="modal-window">
+  <div>
+    <a href="#" title="Close" class="modal-close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+<!--这里引用的就是bootstrap的图标库-->
+</a>
+    <h1 class="text">成功！</h1>
+    <div class="text">我觉得挺好的！哈哈哈哈哈</div>
+    <div><small>Check out</small></div>
+    </div>
+</div>
+```
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/30.png)
+
+如果改成文字也是非常行的
+
+```html
+<div class="container">
+  <div class="interior">
+    <a class="btn" href="#open-modal">Basic CSS-Only Modal</a>
+  </div>
+</div>
+<div id="open-modal" class="modal-window">
+  <div>
+    <a href="#" title="Close" class="modal-close">关闭</a>
+    <h1 class="text">成功！</h1>
+    <div class="text">我觉得挺好的！哈哈哈哈哈</div>
+    <div><small>Check out</small></div>
+    </div>
+</div>
+```
+
+![](https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/31.png)
+
+这个组件学习了网上的一个版本，并且对其加以改进，比如说颜色、样式、以及对于移动端更加完美的适配。在这里也十分感谢原作者。<a href="https://www.jq22.com/code2521">我最先找到的源地址</a>

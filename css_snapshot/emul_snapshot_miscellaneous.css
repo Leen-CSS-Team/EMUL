@@ -275,7 +275,7 @@ div.alertbox.red {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   padding: 2em;
-  background: #F6F6F6;
+  background: #3c96ff;
 }
 .modal-window header {
   font-weight: bold;
@@ -286,7 +286,7 @@ div.alertbox.red {
 }
 
 .modal-close {
-  color: #aaa;
+  color: #fff;
   line-height: 50px;
   font-size: 80%;
   position: absolute;
@@ -315,11 +315,15 @@ small {
 }
 
 .btn {
-  background-color: #fff;
+  background-color: #3c96ff;
   padding: 1em 1.5em;
   border-radius: 3px;
   text-decoration: none;
-}
+  color: white;
+  }
 .btn i {
   padding-right: 0.3em;
+}
+.text{
+    color: #fff;
 }
