@@ -1,0 +1,329 @@
+/*checkbox1 begin*/
+
+input.checkbox1 {
+    width: 57px;
+    height: 28px;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    border-radius: 20px;
+    background-clip: content-box;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+    transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+
+.checkbox1:before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    transition: left 0.3s;
+}
+
+.checkbox1:checked {
+    transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+
+.checkbox1:checked:before {
+    left: 30px;
+}
+
+.checkbox1.blue:checked {
+    border-color: #4191f7;
+    box-shadow: #4191f7 0 0 0 16px inset;
+    background-color: #4191f7;
+}
+
+.checkbox1.green:checked {
+    border-color: #64bd63;
+    box-shadow: #64bd63 0 0 0 16px inset;
+    background-color: #64bd63;
+}
+
+/*checkbox1 over*/
+
+/*checkbox2 begin*/
+
+.checkbox2switch {
+    cursor: pointer;
+    position: absolute;
+}
+
+.checkbox2switch input {
+    display: none;
+}
+
+.checkbox2switch::before {
+    border: solid 1px #dfdfdf;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 32px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+input+.checkbox2line::before, input+.checkbox2line::after {
+    position: absolute;
+    top: 14px;
+    content: "";
+    width: 24px;
+    height: 4px;
+    background-color: #d3d4ec;
+    transition: 0.3s;
+}
+
+input+.checkbox2line::before {
+    transform: scaleX(0);
+    left: 4px;
+    transform-origin: left;
+}
+
+input+.checkbox2line::after {
+    left: 32px;
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+input:checked+.checkbox2line::before {
+    transform: scaleX(1);
+}
+
+input:checked+.checkbox2line::after {
+    transform: scaleX(0);
+}
+
+input+.checkbox2line span::before {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px green;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+input:checked+.checkbox2line span::before {
+    box-shadow: inset 0 0 0 12px #275efe;
+    left: 32px;
+}
+
+input+.checkbox2line span {
+    line-height: 32px;
+    padding-left: 68px;
+    font-size: 20px;
+}
+
+/*checkbox2 over*/
+
+/*checkbox3 begin*/
+
+input.checkbox3 {
+    width: 34px;
+    height: 16px;
+    position: relative;
+    border: none;
+    background-color: #9AA0A6;
+    box-shadow: #DADCE0 0 0 0 0 inset;
+    border-radius: 20px;
+    background-clip: content-box;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+}
+
+.checkbox3:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    transition: left 0.2s;
+}
+
+.checkbox3:checked:before {
+    background-color: #8AB4F8;
+    left: 17px;
+}
+
+.checkbox3:checked {
+    border-color: #637A9E;
+    box-shadow: #637A9E 0 0 0 16px inset;
+    background-color: #637A9E;
+}
+
+/*checkbox3 over*/
+
+header.blue {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #3C96FF;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header.gray {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    background-color: #F9F9F9;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.alertbox {
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    line-height: 45px;
+    text-indent: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.alertbox.blue {
+    background-color: #116DCA;
+    color: white;
+}
+
+div.alertbox.red {
+    background-color: #E83C3F;
+    color: white;
+}
+
+.jumbotron {
+    height: auto;
+    width: auto;
+    background-color: #eaecef;
+    border-radius: 5px;
+}
+
+.line {
+    background-color: #d2d4d7;
+    height: 1px;
+    width: auto;
+}
+
+/*Pop-ups*/
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 2em;
+  background: #3c96ff;
+}
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.modal-close {
+  color: #fff;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: black;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+small {
+  color: #aaa;
+}
+
+.btn {
+  background-color: #3c96ff;
+  padding: 1em 1.5em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  }
+.btn i {
+  padding-right: 0.3em;
+}
+.text{
+    color: #fff;
+}

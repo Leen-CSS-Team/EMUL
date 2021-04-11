@@ -6,7 +6,6 @@
 /.idea
 /text4.html
 /text5.html
-/text6.html
 # Mac os
 .DS_Store
 
@@ -20,6 +19,3 @@
 
 # vs
 /.vs
-
-node_modules
-build

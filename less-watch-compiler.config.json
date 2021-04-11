@@ -1,0 +1,8 @@
+{
+    "watchFolder": "src/style",
+    "outputFolder": "build/css",
+    "mainFile": "emul.less",
+    "sourceMap": true,
+    "runOnce": false,
+    "enableJs": true
+}
