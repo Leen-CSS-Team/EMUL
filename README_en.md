@@ -51,7 +51,7 @@ You can clone our repo to use
 git clone https://github.com/Leen-CSS-Team/EMUL.git
 ```
 
-- ##### Use of v0. X
+- ##### Use of v0. X version
 
 If you want to use version v0. X, please go to the "releases" page and find the "source code" package in "v0. X version changelog" to download and use.
 
