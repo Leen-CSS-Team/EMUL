@@ -8,6 +8,7 @@
    <b>EMUL,全称Easy Mobile UI Library</b>
 </p>
 
+##### 全新EMUL V1版本开始测试！原V0.X版本保留于仓库<kbd>v0.x</kbd>文件夹中，input文件夹移动日期为UTC+8 4月25日！
 ## 欢迎！
 
 首先欢迎你看到这个框架！
@@ -46,10 +47,6 @@ git clone https://gitee.com/leen-css-team/EMUL.git
 ```
 git clone https://github.com/Leen-CSS-Team/EMUL.git
 ```
-
-- ##### V0.X版本使用
-
-如果要使用V0.X版本请前往"Releases"页面找到"V0. X version Changelog"里面的"Source code"源码包下载使用。
 
 ## 文档
 
