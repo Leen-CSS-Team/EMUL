@@ -1,10 +1,10 @@
 ### <a href="README_en.md">English</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="README.md">中文（简体）</a>
 
-<br /><br />
+<br />
 
 ### This README is being translated, some words may be incorrect
 
-<br /><br />
+<br />
 
 ## People involved in translation
 
