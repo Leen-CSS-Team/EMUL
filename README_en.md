@@ -22,8 +22,6 @@
    <b>Emul, Easy mobile UI Library</b>
 </p>
 
-##### The new EMUL V1 version starts testing! The original V0.X version is kept in the <kbd> v0.x </kbd> folder of the warehouse, and the moving date of the input folder is UTC + 8 April 25!
-
 ## Welcome!
 
 First,welcome to see this project!
@@ -52,6 +50,10 @@ You can clone our repo to use
 ```
 git clone https://github.com/Leen-CSS-Team/EMUL.git
 ```
+
+- ##### Use of v0. X
+
+If you want to use version v0. X, please go to the "releases" page and find the "source code" package in "v0. X version changelog" to download and use.
 
 ## Documentation
 
