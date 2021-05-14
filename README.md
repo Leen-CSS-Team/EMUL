@@ -39,11 +39,11 @@ EMUL，全称Easy Mobile UI Library，是一个简单而又实用的一个移动
 
 你可以选择git clone我们的仓库
 
-```
+```sh
 git clone https://gitee.com/leen-css-team/EMUL.git
 ```
 
-```
+```sh
 git clone https://github.com/Leen-CSS-Team/EMUL.git
 ```
 

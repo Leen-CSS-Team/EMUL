@@ -47,7 +47,7 @@ Of course, this is not accelerated with a CDN (I don't have the money for a CDN 
 
 You can clone our repo to use
 
-```
+```sh
 git clone https://github.com/Leen-CSS-Team/EMUL.git
 ```
 
