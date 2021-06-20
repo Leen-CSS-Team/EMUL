@@ -3,7 +3,7 @@
 /tree.txt
 # Mac os
 .DS_Store
-
+/less-watch-compiler.config
 # vscode
 .vscode/settings.json
 .vs/EMUL/v16/.suo
