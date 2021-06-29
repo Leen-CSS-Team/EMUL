@@ -16,4 +16,4 @@
 /.vs
 
 node_modules
-build
+/less-watch-compiler.config.json
