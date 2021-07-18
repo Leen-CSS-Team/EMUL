@@ -1,21 +1,17 @@
-.alert-blue {
+.alert-card {
   border-radius: 5px;
-  height: 45px;
+  height: 50px;
   width: auto;
+  font-size: 16px;
+  line-height: 45px;
+  text-indent: 20px;
+}
+.alert-card.blue {
   background-color: #d1e4fc;
-  font-size: 14px;
-  line-height: 45px;
-  text-indent: 20px;
   color: #a18433;
 }
-.alert-red {
-  border-radius: 5px;
-  height: 45px;
-  width: auto;
+.alert-card.red {
   background-color: #fff3cd;
-  font-size: 14px;
-  line-height: 45px;
-  text-indent: 20px;
   color: #a18433;
 }
-/*# sourceMappingURL=./emul-alert-card.css.map */
+/*# sourceMappingURL=emul-alert-card.css.map */

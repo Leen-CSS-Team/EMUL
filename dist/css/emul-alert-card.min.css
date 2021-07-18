@@ -1,1 +1,1 @@
-.alert-blue{border-radius:5px;height:45px;width:auto;background-color:#d1e4fc;font-size:14px;line-height:45px;text-indent:20px;color:#a18433}.alert-red{border-radius:5px;height:45px;width:auto;background-color:#fff3cd;font-size:14px;line-height:45px;text-indent:20px;color:#a18433}
+.alert-card{border-radius:5px;height:50px;width:auto;font-size:16px;line-height:45px;text-indent:20px;}.alert-card.blue{background-color:#d1e4fc;color:#a18433;}.alert-card.red{background-color:#fff3cd;color:#a18433;}
