@@ -1,3 +1,9 @@
+ @green-color: #64bd63;
+ @blue-color: #4191f7;
+ @yellow-color: #ffcc33;
+ @red-color: #f30000;
+
+ //green
  .switch-green {
     width: 57px;
     height: 28px;
@@ -24,9 +30,9 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 .switch-green:checked {
-    border-color: #64bd63;
-    box-shadow: #64bd63 0 0 0 16px inset;
-    background-color: #64bd63;
+    border-color: @green-color;
+    box-shadow: @green-color 0 0 0 16px inset;
+    background-color: @green-color;
 }
 .switch-green:checked:before {
     left: 30px;
@@ -38,14 +44,14 @@
     transition: left 0.3s;
 }
 .switch-green.switch-anim-green:checked {
-    box-shadow: #64bd63 0 0 0 16px inset;
-    background-color: #64bd63;
+    box-shadow: @green-color 0 0 0 16px inset;
+    background-color: @green-color;
     transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
 }
 .switch-green.switch-anim-green:checked:before {
     transition: left 0.3s;
 }
-
+// blue
 .switch-blue {
     width: 57px;
     height: 28px;
@@ -72,9 +78,9 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 .switch-blue:checked {
-    border-color: #4191f7;
-    box-shadow: #4191f7 0 0 0 16px inset;
-    background-color: #4191f7;
+    border-color: @blue-color;
+    box-shadow: @blue-color 0 0 0 16px inset;
+    background-color: @blue-color;
 }
 .switch-blue:checked:before {
     left: 30px;
@@ -86,14 +92,111 @@
     transition: left 0.3s;
 }
 .switch-blue.switch-anim-blue:checked {
-    box-shadow: #4191f7 0 0 0 16px inset;
-    background-color: #4191f7;
+    box-shadow: @blue-color 0 0 0 16px inset;
+    background-color: @blue-color;
     transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
 }
 .switch-green.switch-anim-blue:checked:before {
     transition: left 0.3s;
 }
 
+//yellow
+.switch-yellow {
+  width: 57px;
+  height: 28px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+  background-color: #fdfdfd;
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  border-radius: 20px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+}
+.switch-yellow:before {
+  content: '';
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.switch-yellow:checked {
+  border-color: @yellow-color;
+  box-shadow: @yellow-color 0 0 0 16px inset;
+  background-color: @yellow-color;
+}
+.switch-yellow:checked:before {
+  left: 30px;
+}
+.switch-yellow.switch-anim-yellow {
+  transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+.switch-yellow.switch-anim-yellow:before {
+  transition: left 0.3s;
+}
+.switch-yellow.switch-anim-yellow:checked {
+  box-shadow: @yellow-color 0 0 0 16px inset;
+  background-color: @yellow-color;
+  transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+.switch-yellow.switch-anim-yellow:checked:before {
+  transition: left 0.3s;
+}
+
+//red
+.switch-red {
+  width: 57px;
+  height: 28px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+  background-color: #fdfdfd;
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  border-radius: 20px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+}
+.switch-red:before {
+  content: '';
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.switch-red:checked {
+  border-color: @red-color;
+  box-shadow: @red-color 0 0 0 16px inset;
+  background-color: @red-color;
+}
+.switch-red:checked:before {
+  left: 30px;
+}
+.switch-red.switch-anim-red {
+  transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+.switch-red.switch-anim-red:before {
+  transition: left 0.3s;
+}
+.switch-red.switch-anim-red:checked {
+  box-shadow: @red-color 0 0 0 16px inset;
+  background-color: @red-color;
+  transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+.switch-red.switch-anim-red:checked:before {
+  transition: left 0.3s;
+}
 /*
 // This switch style has been deleted,may be restored later
 .switch-blue{
