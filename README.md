@@ -97,3 +97,9 @@ The MIT License(http://opensource.org/licenses/MIT)
 更新日志请看我们的Releases Tag
 
 V1版本开始，changelog正式移至Releases内，先前版本的changelog请看<a href="https://github.com/Leen-CSS-Team/EMUL/releases/tag/V0.X">这里（英语）</a>
+
+## 鸣谢
+
+感谢 [JetBrains](https://www.jetbrains.com/?from=real-url) 提供的 free JetBrains Open Source license
+
+[![JetBrains-logo](https://i.loli.net/2020/10/03/E4h5FZmSfnGIgap.png)](https://www.jetbrains.com/?from=real-url)
