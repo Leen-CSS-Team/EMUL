@@ -90,7 +90,7 @@ Team：
 
 - The development of：leen css Team
 
-- by Leaf Studio open source community
+-  Leaf Studio open source community
 
 - Leaf Studio
 

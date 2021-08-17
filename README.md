@@ -86,7 +86,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - 开发：leen css Team
 
-- by Leaf Studio open source community
+- Leaf Studio open source community
 
 - Leaf Studio
 
