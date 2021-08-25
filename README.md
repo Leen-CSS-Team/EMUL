@@ -61,6 +61,10 @@ git clone https://github.com/Leen-CSS-Team/EMUL.git
 
 你可以随时创建issue或者提交PR来参与贡献！
 
+更多参与贡献方式请参考[帮助我们](https://leen-css-team.gitee.io/emul-docs/#/others/help-us)
+
+EMUL所有社区活动遵从[Contributor Covenant](https://www.contributor-covenant.org/)
+
 ## License
 
 #### 本产品遵循MIT开源协议
@@ -98,7 +102,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 V1版本开始，changelog正式移至Releases内，先前版本的changelog请看<a href="https://github.com/Leen-CSS-Team/EMUL/releases/tag/V0.X">这里（英语）</a>
 
-## Star趋势（卑微）
+## GitHub Star趋势（卑微）
 
 [![Stargazers over time](https://starchart.cc/Leen-CSS-Team/EMUL.svg)](https://starchart.cc/Leen-CSS-Team/EMUL)
 

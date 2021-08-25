@@ -65,6 +65,10 @@ Note: The document has not been translated, please check the Chinese document:
 
 Feel free to dive in! Open an issue or submit PRs.
 
+For more ways to participate and contribute, please refer to[Help us(Chinese)](https://leen-css-team.gitee.io/emul-docs/#/others/help-us)
+
+All EMUL community activities comply with [Contributor Covenant](https://www.contributor-covenant.org/)
+
 ## License
 
 #### This product is under the MIT open source agreement
@@ -100,7 +104,7 @@ Please see our releases tag for the changelog
 
 Since the V1 version, the changelog has been officially moved to releases. Please see the previous version of changelog <a href="https://github.com/Leen-CSS-Team/EMUL/releases/tag/V0.X">there</a>
 
-## Stargazers over time
+## Stargazers over time(GitHub)
 
 [![Stargazers over time](https://starchart.cc/Leen-CSS-Team/EMUL.svg)](https://starchart.cc/Leen-CSS-Team/EMUL)
 
