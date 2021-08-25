@@ -100,6 +100,10 @@ Please see our releases tag for the changelog
 
 Since the V1 version, the changelog has been officially moved to releases. Please see the previous version of changelog <a href="https://github.com/Leen-CSS-Team/EMUL/releases/tag/V0.X">there</a>
 
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Leen-CSS-Team/EMUL.svg)](https://starchart.cc/Leen-CSS-Team/EMUL)
+
 ## Thanks
 
 Thanks to [JetBrains](https://www.jetbrains.com/?from=real-url) for providing the free JetBrains Open Source license

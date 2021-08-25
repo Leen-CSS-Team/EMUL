@@ -98,6 +98,10 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 V1版本开始，changelog正式移至Releases内，先前版本的changelog请看<a href="https://github.com/Leen-CSS-Team/EMUL/releases/tag/V0.X">这里（英语）</a>
 
+## Star趋势（卑微）
+
+[![Stargazers over time](https://starchart.cc/Leen-CSS-Team/EMUL.svg)](https://starchart.cc/Leen-CSS-Team/EMUL)
+
 ## 鸣谢
 
 感谢 [JetBrains](https://www.jetbrains.com/?from=real-url) 提供的 free JetBrains Open Source license
