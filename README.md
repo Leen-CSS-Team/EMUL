@@ -3,9 +3,9 @@
 <br /><br />
 
 <p align="center">
-   <img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/logo.png">
+   <img src="https://cdn.jsdelivr.net/gh/leaf2006/image/img/logo.png">
    <br />
-   <b>EMUL,全称Easy Mobile UI Library</b>
+   <b>当我所付出的没有得到相应的回报时，付出的成果就是我的回报</b>
 </p>
 
 ## 欢迎！

@@ -17,9 +17,9 @@
 <br /><br />
 
 <p align="center">
-   <img src="https://coding-pages-bucket-126277-7922605-6465-394446-1304367309.cos-website.ap-hongkong.myqcloud.com/EMUL-docs-img/logo.png">
+   <img src="https://cdn.jsdelivr.net/gh/leaf2006/image/img/logo.png">
    <br />
-   <b>Emul, Easy mobile UI Library</b>
+   <b>When I did not get the corresponding reward for what I paid, the result I paid is my reward.</b>
 </p>
 
 ## Welcome!
