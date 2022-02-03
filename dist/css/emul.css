@@ -717,6 +717,10 @@ button.full {
     transition: left 0.15s ease-in;
   }
  */
+.external {
+  width: 100%;
+  background-color: #ddd;
+}
 .skills {
   height: 10px;
   line-height: 10px;
