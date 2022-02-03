@@ -717,7 +717,7 @@ button.full {
     transition: left 0.15s ease-in;
   }
  */
-.container {
+.external {
   width: 100%;
   background-color: #ddd;
 }
