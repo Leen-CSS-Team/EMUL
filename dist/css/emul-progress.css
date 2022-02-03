@@ -7,16 +7,16 @@
   line-height: 10px;
   color: white;
 }
-.green {
+.progress-green {
   background-color: #3f9965;
 }
-.blue {
+.progress-blue {
   background-color: #3C96FF;
 }
-.yellow {
+.progress-yellow {
   background-color: #ffbb00;
 }
-.red {
+.progress-red {
   background-color: #E73D32;
 }
-/*# sourceMappingURL=emul-progress.css.map */
+/*# sourceMappingURL=./emul-progress.css.map */
