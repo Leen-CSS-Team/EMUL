@@ -717,4 +717,25 @@ button.full {
     transition: left 0.15s ease-in;
   }
  */
-/*# sourceMappingURL=./emul.css.map */
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+.skills {
+  height: 10px;
+  line-height: 10px;
+  color: white;
+}
+.green {
+  background-color: #3f9965;
+}
+.blue {
+  background-color: #3C96FF;
+}
+.yellow {
+  background-color: #ffbb00;
+}
+.red {
+  background-color: #E73D32;
+}
+/*# sourceMappingURL=emul.css.map */
