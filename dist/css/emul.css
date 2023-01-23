@@ -726,6 +726,11 @@ button.full {
   line-height: 10px;
   color: white;
 }
+.skills-narrow {
+  height: 2px;
+  line-height: 10px;
+  color: white;
+}
 .progress-green {
   background-color: #3f9965;
 }
@@ -738,4 +743,3 @@ button.full {
 .progress-red {
   background-color: #E73D32;
 }
-/*# sourceMappingURL=./emul.css.map */

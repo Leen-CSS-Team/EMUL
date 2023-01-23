@@ -7,6 +7,11 @@
   line-height: 10px;
   color: white;
 }
+.narrow {
+  height: 20px;
+  line-height: 20px;
+  color: white;
+}
 .progress-green {
   background-color: #3f9965;
 }
@@ -19,4 +24,4 @@
 .progress-red {
   background-color: #E73D32;
 }
-/*# sourceMappingURL=./emul-progress.css.map */
+/*# sourceMappingURL=emul-progress.css.map */
