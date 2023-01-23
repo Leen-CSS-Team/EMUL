@@ -78,7 +78,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 - An ran （@安然失笑か）
 
-- Guang_Chen（光晨）
+- Guang_Chen_（@光晨）
 
 - Codetector
 
@@ -88,7 +88,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 
 所属团队：
 
-- 开发：leen css Team
+- 开发：Leen CSS Team
 
 - Leaf Studio open source community
 
